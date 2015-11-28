@@ -6,6 +6,8 @@
    <field name="created_at" type="tdate" indexed="true" stored="true" required="true" multiValued="false" />
    <field name="tweet_urls" type="text_general" indexed="true" stored="true" multiValued="true" />
    <field name="tweet_hashtags" type="text_general" indexed="true" stored="true" multiValued="true" />
+   <field name="concepts" type="text_general" indexed="true" stored="true" multiValued="true" />
+   <field name="entities" type="text_general" indexed="true" stored="true" multiValued="true" />
    <field name="lang" type="string" indexed="true" stored="true" required="true" />
    <field name="text_en" type="text_en" indexed="true" stored="true"/>
    <field name="text_de" type="text_de" indexed="true" stored="true"/>
