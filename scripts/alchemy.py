@@ -9,7 +9,7 @@ import json
 def tagContent(apikey, text):
        baseurl = "http://gateway-a.watsonplatform.net/calls/text/TextGetCombinedData?"
        url = baseurl + "apikey=" + apikey + "&extract=entities,concepts&outputMode=json&text=" + urllib2.quote(text)
-       print(url)
+       #print(url)
        data = urllib2.urlopen(url)
        json_data=json.load(data)
        return json_data

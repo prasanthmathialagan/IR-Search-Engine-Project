@@ -4,6 +4,7 @@
 from __future__ import print_function
 import calendar
 import sys
+from datetime import date, timedelta 
 import json
 import os.path
 import tweepy
@@ -20,6 +21,21 @@ tweepyAPI = None
 tweetDict = {}
 months = {v: k for k,v in enumerate(calendar.month_abbr)}
 taggedDict = {}
+dates = []
+tweetCount = {'en':0, 'fr': 0, 'de': 0, 'ru' : 0}
+lang_geo = ['en','fr','de','ru']
+entityTypes = ['Person', 'Country', 'Organization', 'Company', 'StateOrCounty', 'City', 'GeographicFeature', 'Region']
+keys = [
+	'bcae79f944a5cb0db0c70a8951776c3086478d09',\
+	'c906c5f952b6e30b619412f715441afb48b40595',\
+	'5759f13c51a2e85c1be4b3c056f9fc70cc63dec3',\
+	'fb47049cc0102f23024e98f10a975b7c8d0b328c',\
+	'3b807ba90afd0416a7f252bd24fd0873649fa0b9'
+	]
+def setupDates(days):
+   global dates
+   for i in reversed(range(0,days)):
+	dates.append((date.today()-timedelta(i)).strftime("%Y-%m-%d"))
 
 # Setup various access keys and tokens from the user given input file 
 def setupAuthKeys(authFile):
@@ -44,42 +60,39 @@ def setupTweepyAPI():
 		print("Authentication setup failed, exiting...")
 		exit(1)
 
-
-
-def getTweets(queryString, fromDate, toDate):
-	global tweepyAPI
-	tweetResult = []
-	year = '2015-11-'
-	count_max=10
-	# Querying for English tweets
-	tweets = tweepyAPI.search(q=queryString,include_entities=True,lang='en', since=year+fromDate,until=year+toDate,count=count_max)
-	tweetResult += tweets['statuses']
-
-	tweets = tweepyAPI.search(q=queryString,include_entities=True,lang='fr', since=year+fromDate,until=year+toDate,count=count_max)
-	tweetResult += tweets['statuses']
-		
-	# Querying for german tweets
-	#Berlin- 52.533028,13.388744,20km
-	tweets = tweepyAPI.search(q=queryString,include_entities=True, lang='de', since=year+fromDate,until=year+toDate,count=count_max)#,geocode="51.426129,10.267352,1500km")
-	tweetResult += tweets['statuses']
-
-	# Querying for Russian tweets
-	#Moscow - 55.601328,38.034511,500km
-	tweets = tweepyAPI.search(q=queryString,include_entities=True,lang='ru', since=year+fromDate,until=year+toDate,count=count_max)#,geocode="60.477265, 92.614585,1500km")
-	tweetResult += tweets['statuses']
-
-	return tweetResult
+def getTweets(queryString):
+    global tweepyAPI, dates, lang_geo, tweetCount
+    count_max=100
+    # Querying for English tweets
+    for i in range(len(dates)-1):
+	 twtRes = []
+         sDate = dates[i]
+ 	 eDate = dates[i+1]
+	 for lng in lang_geo:
+	     tweets = tweepyAPI.search(q=queryString, \
+	     include_entities=True, \
+	     lang=lng, \
+	     since=sDate, \
+	     until=eDate, \
+	     count=count_max)
+	     tweetCount[lng] += len(tweets['statuses'])
+	     twtRes += tweets['statuses']
+	 for tweet in twtRes:
+             processTweet(tweet)
+ 	 writeTweetsToFile(queryString,sDate, eDate)
+ 	 for k,v in tweetCount.iteritems():
+ 	 	 print(k,": ",v)
 
 # Extract hashtags out of tweet
 def processHashtags(tweet):
-	hashtags = []
-	if tweet.get('entities'):
-		if tweet['entities'].get('hashtags'):
-			tweet = tweet['entities']['hashtags']
-			if tweet and len(tweet) > 0:
-				for tag in tweet:
-					hashtags.append(tag['text'])
-	return hashtags
+    hashtags = []
+    if tweet.get('entities'):
+       if tweet['entities'].get('hashtags'):
+  	  tweet = tweet['entities']['hashtags']
+	  if tweet and len(tweet) > 0:
+	     for tag in tweet:
+	         hashtags.append(tag['text'])
+    return hashtags
 
 # Extract Urls out of tweet
 def processUrls(tweet):
@@ -123,11 +136,29 @@ def processDate(timeStamp):
 	tim = arr[3].split('.')[0]
 	return (dat+'T'+tim+'Z')
 
+def getTag(text, id):
+	global taggedDict, keys
+	i = 0
+	apikey = keys[i]
+	data = alchemy.tagContent(apikey, text)
+	if(data['status'] == 'ERROR'):
+		i += 1
+		if i == len(keys):
+			print("End of keys, no new keys to try")
+			return [],[]
+		apikey = keys[i]
+		data = alchemy.tagContent(apikey, text)
+	tag = {}
+	tag['id'] = id
+	tag['concepts'] = data['concepts'] if data.get('concepts') else []
+	tag['entities'] = data['entities'] if data.get('entities') else []
+	taggedDict[id] = tag
+	return tag['concepts'], tag['entities']
+	
 
 #Process given tweet and extract all info
 def processTweet(tweet):
-	global tweetDict
-	global taggedDict
+	global tweetDict, taggedDict
 	textKeyName = 'text_'
 	twt = {}
 	twt['id'] = tweet['id_str']
@@ -139,22 +170,24 @@ def processTweet(tweet):
 	twt['created_at'] = processDate(tweet['created_at'])
 	twt['retweet_count'] = tweet['retweet_count']
 	twt['favorite_count'] = tweet['favorite_count']
-	#twt[''] = tweet['user']['location']
-	#twt['geo']=tweet['geo']
-
-	if twt['lang'] == 'en':
-		data = alchemy.tagContent('bcae79f944a5cb0db0c70a8951776c3086478d09',tweet['text'].encode('utf-8'))
-		tag = {}
-		tag['id'] = tweet['id_str']
-		tag['concepts'] = data['concepts']
-		tag['entities'] = data['entities']
-		twt['concepts'] = processConcepts(data)
-		twt['entities'] = processEntities(data)
-		taggedDict[tag['id']] = tag
-
+	twt['concepts'] , twt['entities'] = getTag(twt[textKeyName],twt['id'] )
 	tweetDict[twt['id']] = twt
 
-def writeTweetsToFile(queryString, fromDate, toDate, tweets):
+def writeTagsToFile(fileName):
+	global taggedDict
+	f = codecs.open(fileName,'w','utf-8')
+	f.write('[')
+	tlist = taggedDict.values()
+	tlen = len(tlist)-1
+	for tweet in tlist:
+		f.write(json.dumps(tweet))
+		if(tlist.index(tweet) != tlen):
+			f.write(",")
+	f.write("]")
+	f.close()
+
+
+def writeTweetsToFile(queryString, fromDate, toDate):
 	global tweetDict
 	outFileName = '_'.join(["tweets",queryString.replace(' ','_'), fromDate, toDate])
 	f = codecs.open(outFileName+".json",'w','utf-8')
@@ -168,36 +201,19 @@ def writeTweetsToFile(queryString, fromDate, toDate, tweets):
 	f.write("]")
 	f.close()
 	raw = codecs.open(outFileName+"_raw"+".json",'w','utf-8')
-	print(tweets,file=raw)
+	print(tlist,file=raw)
 	raw.close()
-	global taggedDict
-	outFileName = '_'.join(["tweets",queryString.replace(' ','_'), fromDate, toDate])
-	f = codecs.open(outFileName+"_tagged.json",'w','utf-8')
-	f.write('[')
-	tlist = taggedDict.values()
-	tlen = len(tlist)-1
-	for tweet in tlist:
-		f.write(json.dumps(tweet))
-		if(tlist.index(tweet) != tlen):
-			f.write(",")
-	f.write("]")
-	f.close()
-
+	tweetDict = {}
+	writeTagsToFile(outFileName+"_tagged.json")
+	
 #Entry point
 def main():		
-	global tweepyAPI
-	twts = []
 	print(sys.argv)
 	setupAuthKeys(sys.argv[1])
 	setupTweepyAPI()
-	fromDate = sys.argv[2]
+	setupDates(int(sys.argv[2]))
 	queryString = ' '.join(sys.argv[3:])
-	toDate = str(int(fromDate)+1)
-	tweets = getTweets(queryString, fromDate, toDate)
-	for tweet in tweets:
-		processTweet(tweet)
-	writeTweetsToFile(queryString,fromDate,toDate,tweets)
-
+	getTweets(queryString)
 
 if __name__ == "__main__":
 	main()
