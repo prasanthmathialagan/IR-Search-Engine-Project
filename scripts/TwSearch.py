@@ -23,7 +23,6 @@ months = {v: k for k,v in enumerate(calendar.month_abbr)}
 taggedDict = {}
 dates = []
 tweetCount = {'en':0, 'fr': 0, 'de': 0, 'ru' : 0}
-lang_geo = ['en','fr','de','ru']
 entityTypes = ['Person', 'Country', 'Organization', 'Company', 'StateOrCounty', 'City', 'GeographicFeature', 'Region']
 keys = [
 	'bcae79f944a5cb0db0c70a8951776c3086478d09',\
@@ -62,13 +61,13 @@ def setupTweepyAPI():
 
 def getTweets(queryString):
     global tweepyAPI, dates, lang_geo, tweetCount
-    count_max=100
+    count_max= 100
     # Querying for English tweets
     for i in range(len(dates)-1):
 	 twtRes = []
          sDate = dates[i]
  	 eDate = dates[i+1]
-	 for lng in lang_geo:
+	 for lng in tweetCount.keys():
 	     tweets = tweepyAPI.search(q=queryString, \
 	     include_entities=True, \
 	     lang=lng, \
@@ -80,9 +79,7 @@ def getTweets(queryString):
 	 for tweet in twtRes:
              processTweet(tweet)
  	 writeTweetsToFile(queryString,sDate, eDate)
- 	 for k,v in tweetCount.iteritems():
- 	 	 print(k,": ",v)
-
+ 	 
 # Extract hashtags out of tweet
 def processHashtags(tweet):
     hashtags = []
@@ -107,12 +104,13 @@ def processUrls(tweet):
 
 # Extract entities from tagged data
 def processEntities(taggedData):
+	global entityTypes
 	entities = []
 	if taggedData.get('entities'):
 		entity = taggedData['entities'];
 		if entity and len(entity) > 0:
 			for e in entity:
-				if e['type'] != 'TwitterHandle' and e['type'] != 'Hashtag':
+				if e['type'] in entityTypes:
 					entities.append(e['text'])
 	return entities
 
@@ -150,8 +148,8 @@ def getTag(text, id):
 		data = alchemy.tagContent(apikey, text)
 	tag = {}
 	tag['id'] = id
-	tag['concepts'] = data['concepts'] if data.get('concepts') else []
-	tag['entities'] = data['entities'] if data.get('entities') else []
+	tag['concepts'] = processConcepts(data)
+	tag['entities'] = processEntities(data)
 	taggedDict[id] = tag
 	return tag['concepts'], tag['entities']
 	
@@ -214,6 +212,8 @@ def main():
 	setupDates(int(sys.argv[2]))
 	queryString = ' '.join(sys.argv[3:])
 	getTweets(queryString)
+	for k,v in tweetCount.iteritems():
+ 	 	print(k,": ",v)
 
 if __name__ == "__main__":
 	main()
