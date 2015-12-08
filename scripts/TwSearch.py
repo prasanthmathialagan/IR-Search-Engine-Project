@@ -25,10 +25,10 @@ dates = []
 tweetCount = {'en':0, 'fr': 0, 'de': 0, 'ru' : 0}
 entityTypes = ['Person', 'Country', 'Organization', 'Company', 'StateOrCounty', 'City', 'GeographicFeature', 'Region']
 keys = [
-	'bcae79f944a5cb0db0c70a8951776c3086478d09',\
-	'c906c5f952b6e30b619412f715441afb48b40595',\
-	'5759f13c51a2e85c1be4b3c056f9fc70cc63dec3',\
-	'fb47049cc0102f23024e98f10a975b7c8d0b328c',\
+	'bcae79f944a5cb0db0c70a8951776c3086478d09',
+	'c906c5f952b6e30b619412f715441afb48b40595',
+	'5759f13c51a2e85c1be4b3c056f9fc70cc63dec3',
+	'fb47049cc0102f23024e98f10a975b7c8d0b328c',
 	'3b807ba90afd0416a7f252bd24fd0873649fa0b9'
 	]
 def setupDates(days):

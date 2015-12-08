@@ -1,0 +1,92 @@
+[
+    {
+        "concepts": [],
+        "created_at": "2015-012-04T06:05:31Z",
+        "entities": [],
+        "favorite_count": 0,
+        "id": "672657968899432448",
+        "lang": "en",
+        "retweet_count": 0,
+        "text_en": "#PrayForKenya The rate at which accidents are happening is wanting.Join hands brothers for prayer. @RobertAlai  @xtiandela @KoinangeJeff",
+        "text_en_modified": "PrayForKenya The rate at which accidents are happening is wanting.Join hands brothers for prayer.",
+        "topic": "KenyanBombing",
+        "tweet_hashtags": [
+            "PrayForKenya"
+        ],
+        "tweet_urls": []
+    },
+    {
+        "concepts": [
+            "Africa",
+            "United States Army Africa",
+            "African Union"
+        ],
+        "created_at": "2015-012-04T19:45:06Z",
+        "entities": [],
+        "favorite_count": 0,
+        "id": "672864221839941635",
+        "lang": "en",
+        "retweet_count": 223,
+        "text_en": "RT @AfricaFactsZone: Hashtags to show support against terrorism in Africa;\n#PrayForKenya\n#PrayForSomalia\n#PrayForLibya\n#PrayForNigeria\nPray\u2026",
+        "text_en_modified": "Hashtags to show support against terrorism in Africa; PrayForKenya PrayForSomalia PrayForLibya PrayForNigeria Pray\u2026",
+        "topic": "KenyanBombing",
+        "tweet_hashtags": [
+            "PrayForKenya",
+            "PrayForSomalia",
+            "PrayForLibya",
+            "PrayForNigeria"
+        ],
+        "tweet_urls": []
+    },
+    {
+        "concepts": [],
+        "created_at": "2015-012-04T20:33:07Z",
+        "entities": [],
+        "favorite_count": 0,
+        "id": "672876304614694914",
+        "lang": "fr",
+        "retweet_count": 4,
+        "text_fr": "RT @Shelby_Marietou: Comment des Hommes avec 1 Coeur et 1 Cerveau peuvent commettre de telles atrocit\u00e9s?#RIPaux148innocents #prayforKenya h\u2026",
+        "topic": "KenyanBombing",
+        "tweet_hashtags": [
+            "RIPaux148innocents",
+            "prayforKenya"
+        ],
+        "tweet_urls": []
+    },
+    {
+        "concepts": [],
+        "created_at": "2015-012-04T06:06:36Z",
+        "entities": [],
+        "favorite_count": 0,
+        "id": "672658240669396992",
+        "lang": "en",
+        "retweet_count": 0,
+        "text_en": "#PrayForKenya this festive season that we are losing lives..... @yeswajay @xtiandela @RobertAlai",
+        "text_en_modified": "PrayForKenya this festive season that we are losing lives.....",
+        "topic": "KenyanBombing",
+        "tweet_hashtags": [
+            "PrayForKenya"
+        ],
+        "tweet_urls": []
+    },
+    {
+        "concepts": [],
+        "created_at": "2015-012-04T02:59:35Z",
+        "entities": [
+            "Paris"
+        ],
+        "favorite_count": 0,
+        "id": "672611174299602945",
+        "lang": "en",
+        "retweet_count": 0,
+        "text_en": "Fuck Paris... yall need to pray that I dont get locked up at court 2mro for all that child support I owe #prayforparis #prayforkenya",
+        "text_en_modified": "Fuck Paris... yall need to pray that I dont get locked up at court 2mro for all that child support I owe prayforparis prayforkenya",
+        "topic": "KenyanBombing",
+        "tweet_hashtags": [
+            "prayforparis",
+            "prayforkenya"
+        ],
+        "tweet_urls": []
+    }
+]

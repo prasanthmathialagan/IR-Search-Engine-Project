@@ -1,0 +1,59 @@
+[
+    {
+        "concepts": [],
+        "created_at": "2015-012-05T04:30:16Z",
+        "entities": [],
+        "favorite_count": 0,
+        "id": "672996385856319488",
+        "lang": "en",
+        "retweet_count": 2,
+        "text_en": "#Cairo nightclub petrol #bombing leaves 16 dead https://t.co/0en1hbmJ2j https://t.co/mhVojtiZuL",
+        "text_en_modified": "Cairo nightclub petrol bombing leaves 16 dead",
+        "topic": "KenyanBombing",
+        "tweet_hashtags": [
+            "Cairo",
+            "bombing"
+        ],
+        "tweet_urls": [
+            "http://goo.gl/OYMC4o"
+        ]
+    },
+    {
+        "concepts": [
+            "Nightclub"
+        ],
+        "created_at": "2015-012-05T17:50:09Z",
+        "entities": [
+            "Cairo"
+        ],
+        "favorite_count": 0,
+        "id": "673197680223494144",
+        "lang": "en",
+        "retweet_count": 5,
+        "text_en": "Cairo Night club petrol bombing leaves 16 dead https://t.co/0en1hbmJ2j https://t.co/mhVojtiZuL",
+        "text_en_modified": "Cairo Night club petrol bombing leaves 16 dead",
+        "topic": "KenyanBombing",
+        "tweet_hashtags": [],
+        "tweet_urls": [
+            "http://goo.gl/OYMC4o"
+        ]
+    },
+    {
+        "concepts": [],
+        "created_at": "2015-012-05T11:40:09Z",
+        "entities": [],
+        "favorite_count": 0,
+        "id": "673104567228375040",
+        "lang": "en",
+        "retweet_count": 0,
+        "text_en": "#CairoNightclub petrol bombing leaves 16 dead https://t.co/0en1hbmJ2j https://t.co/mhVojtiZuL",
+        "text_en_modified": "CairoNightclub petrol bombing leaves 16 dead",
+        "topic": "KenyanBombing",
+        "tweet_hashtags": [
+            "CairoNightclub"
+        ],
+        "tweet_urls": [
+            "http://goo.gl/OYMC4o"
+        ]
+    }
+]

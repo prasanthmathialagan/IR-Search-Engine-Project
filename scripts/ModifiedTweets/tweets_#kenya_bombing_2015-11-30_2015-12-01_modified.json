@@ -1,0 +1,26 @@
+[
+    {
+        "concepts": [
+            "Nigel Dick",
+            "1995 singles"
+        ],
+        "created_at": "2015-011-30T13:19:12Z",
+        "entities": [
+            "Tunisia",
+            "Kenya"
+        ],
+        "favorite_count": 0,
+        "id": "671317555945041920",
+        "lang": "en",
+        "retweet_count": 0,
+        "text_en": "I believe if we keep bombing the shit out of other countries we will have worse than 7/7 #Tunisia #ParisAttacks #Kenya on our hands.",
+        "text_en_modified": "I believe if we keep bombing the shit out of other countries we will have worse than 7/7 Tunisia ParisAttacks Kenya on our hands.",
+        "topic": "KenyanBombing",
+        "tweet_hashtags": [
+            "Tunisia",
+            "ParisAttacks",
+            "Kenya"
+        ],
+        "tweet_urls": []
+    }
+]
