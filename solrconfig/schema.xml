@@ -10,6 +10,7 @@
    <field name="entities" type="text_general" indexed="true" stored="true" multiValued="true" />
    <field name="lang" type="string" indexed="true" stored="true" required="true" />
    <field name="text_en" type="text_en" indexed="true" stored="true"/>
+   <field name="text_en_modified" type="text_en" indexed="true" stored="true"/>
    <field name="text_de" type="text_de" indexed="true" stored="true"/>
    <field name="text_ru" type="text_ru" indexed="true" stored="true"/>
    <field name="text_fr" type="text_ru" indexed="true" stored="true"/>
@@ -18,6 +19,7 @@
    <field name="favorite_count" type="int" indexed="true" stored="true" omitNorms="true"/>
    <field name="text" type="text_general" indexed="true" stored="false" multiValued="true"/>
    <field name="source" type="text_general" indexed="true" stored="true"/>
+   <field name="topic" type="text_general" indexed="true" stored="true"/>
    <dynamicField name="*_s"  type="string"  indexed="true"  stored="true" />
    <dynamicField name="*_ss" type="string"  indexed="true"  stored="true" multiValued="true"/>
    <dynamicField name="*_dt"  type="date"    indexed="true"  stored="true"/>
