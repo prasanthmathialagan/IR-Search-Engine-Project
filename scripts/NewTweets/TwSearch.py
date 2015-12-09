@@ -222,7 +222,6 @@ def writeTweetsToFile(queryString, fromDate, toDate):
 	global tweetDict
 	outFileName = '_'.join(["tweets",queryString.replace(' ','_'), fromDate, toDate])
 	f = codecs.open(outFileName+".json",'w','utf-8')
-	f.write('[')
 	tlist = tweetDict.values()
 	tlen = len(tlist)-1
 	jsondata = simplejson.dumps(tlist, indent=4, skipkeys=True, sort_keys=True)
