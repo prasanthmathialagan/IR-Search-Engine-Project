@@ -5,11 +5,13 @@ from __future__ import print_function
 import calendar
 import sys
 from datetime import date, timedelta 
+import re
 import json
 import os.path
 import tweepy
 import codecs
 import alchemy
+import simplejson
 
 #Global variables required through out the app
 #Access Keys and tokens
@@ -22,9 +24,9 @@ tweetDict = {}
 months = {v: k for k,v in enumerate(calendar.month_abbr)}
 taggedDict = {}
 dates = []
-tweetCount = {'en':0, 'fr': 0, 'de': 0, 'ru' : 0 ,'ar' : 0}
+tweetCount = {'en':0, 'fr': 0, 'de': 0, 'ru' : 0 ,'ar' : 0 ,'tr' : 0}
 entityTypes = ['Person', 'Country', 'Organization', 'Company', 'StateOrCounty', 'City', 'GeographicFeature', 'Region']
-removeChars = ["(",")", "#",":"]
+removeChars = ["(",")", "#",":" "-"]
 regexPatterns = ["RT","@.*","htt.*"]
 keys = [
 	'bcae79f944a5cb0db0c70a8951776c3086478d09',
@@ -161,9 +163,9 @@ def getTag(text, id):
 	return tag['concepts'], tag['entities']
 	
 
-def getSimpleText(text):
+def getSimpleText(txt):
    global removeChars, regexPatterns
-   line = text.split()
+   line = txt.split()
    try:
     for i in range(0,len(line)):
         line[i]
@@ -173,10 +175,12 @@ def getSimpleText(text):
                 continue
         for ch in removeChars:
             line[i] = line[i].replace(ch,'')
-    except:
+	return ' '.join(line).strip()
+   except:
     	print('Error in parsing: ', line)
     	pass
-    return ' '.join(line).strip().encode('utf-8')
+   return txt
+   
 
 
 #Process given tweet and extract all info
@@ -189,13 +193,14 @@ def processTweet(tweet):
 	textKeyName += twt['lang']
 	twt['topic'] = sys.argv[3]
 	twt[textKeyName] = tweet['text'].encode('utf-8')
+	if twt['lang'] == 'en':
+		twt[textKeyName+'_modified'] = getSimpleText(tweet['text'])
 	twt['tweet_hashtags'] = processHashtags(tweet)
 	twt['tweet_urls'] = processUrls(tweet)
 	twt['created_at'] = processDate(tweet['created_at'])
 	twt['retweet_count'] = tweet['retweet_count']
 	twt['favorite_count'] = tweet['favorite_count']
 	twt['concepts'] , twt['entities'] = getTag(twt[textKeyName],twt['id'] )
-	twt[textKeyName+'_modified'] = getSimpleText(twt['textKeyName'])
 	tweetDict[twt['id']] = twt
 
 '''
