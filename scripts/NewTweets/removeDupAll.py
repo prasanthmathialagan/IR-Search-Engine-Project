@@ -16,21 +16,24 @@ def main():
 	fileList = open(argv[1],'r')
 	for f in fileList:
 		f = f.strip()
-		print(f)
 		text = open(f,'r').read()
-		#print(text)
 		text = json.loads(text)
-		#print(text)
 		tweets = tweets + text
 	print(len(tweets))
 	for twt in tweets:
-		tKey = 'text_' + twt['lang']
-		if twt[tKey] not in tweetTexts:
-			orig += 1
-			tweetTexts.add(twt[tKey])
-			Ftweets.append(twt)
-		else:
-			dup += 1
+	    tkey = 'text_' + twt['lang']
+	    if twt['lang'] == 'en':
+ 		if twt['text_en_modified'] not in tweetTexts:
+	           orig += 1
+		   tweetTexts.add(twt[tkey])
+		   tweetTexts.add(twt['text_en_modified'])
+		   Ftweets.append(twt)
+ 	    elif twt[tkey] not in tweetTexts:
+		orig += 1
+		tweetTexts.add(twt[tkey])
+		Ftweets.append(twt)
+	    else:
+		dup += 1
 	print("orig: ", orig, " dup: ",dup)
 	jData = simplejson.dumps(Ftweets, indent=4, skipkeys=True, sort_keys=True)
 	fd = open('tweets.json','w')

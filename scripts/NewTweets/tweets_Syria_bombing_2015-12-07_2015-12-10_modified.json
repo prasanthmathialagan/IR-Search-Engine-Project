@@ -1,0 +1,967 @@
+[
+    {
+        "concepts": [],
+        "created_at": "2015-012-08T23:31:02Z",
+        "entities": [],
+        "favorite_count": 0,
+        "id": "674370631148945408",
+        "lang": "fr",
+        "retweet_count": 0,
+        "text_fr": "08 Dec | London | Veterans discard medals in Syria protest https://t.co/E3IIxLRZDL https://t.co/PQzmIZoFoM",
+        "topic": "SyrianCrisis",
+        "tweet_hashtags": [],
+        "tweet_urls": [
+            "http://bit.ly/1YX9CJn"
+        ]
+    },
+    {
+        "concepts": [
+            "December 12",
+            "December 8"
+        ],
+        "created_at": "2015-012-09T23:37:56Z",
+        "entities": [
+            "London",
+            "Syria"
+        ],
+        "favorite_count": 0,
+        "id": "674734754495901696",
+        "lang": "fr",
+        "retweet_count": 10,
+        "text_fr": "RT @RealFKNNews: 08 Dec | London | Veterans discard medals in Syria protest https://t.co/ZB2NHz2F5e https://t.co/v4hMubpOu0",
+        "topic": "SyrianCrisis",
+        "tweet_hashtags": [],
+        "tweet_urls": [
+            "http://bit.ly/1YX9CJn"
+        ]
+    },
+    {
+        "concepts": [],
+        "created_at": "2015-012-07T12:14:30Z",
+        "entities": [
+            "Syria"
+        ],
+        "favorite_count": 0,
+        "id": "673837987113734145",
+        "lang": "fr",
+        "retweet_count": 0,
+        "text_fr": "M\u00e9decins Sans Fronti\u00e8res hospital in Syria hit by 'double-tap' barrel bombing. \n\n\"A hospital supported by... https://t.co/te80Fq3Jql",
+        "topic": "SyrianCrisis",
+        "tweet_hashtags": [],
+        "tweet_urls": [
+            "http://fb.me/8894Le48k"
+        ]
+    },
+    {
+        "concepts": [],
+        "created_at": "2015-012-09T14:31:05Z",
+        "entities": [],
+        "favorite_count": 1,
+        "id": "674597136571461633",
+        "lang": "fr",
+        "retweet_count": 1,
+        "text_fr": "08 Dec | London | Veterans discard medals in Syria protest https://t.co/E3IIxLRZDL https://t.co/q8x1nkhn9K",
+        "topic": "SyrianCrisis",
+        "tweet_hashtags": [],
+        "tweet_urls": [
+            "http://bit.ly/1YX9CJn"
+        ]
+    },
+    {
+        "concepts": [],
+        "created_at": "2015-012-09T03:42:52Z",
+        "entities": [],
+        "favorite_count": 0,
+        "id": "674434008176963584",
+        "lang": "fr",
+        "retweet_count": 3,
+        "text_fr": "RT @RealFKNNews: 08 Dec | London | Veterans discard medals in Syria protest https://t.co/ZB2NHz2F5e https://t.co/ipOGP9ZiQV",
+        "topic": "SyrianCrisis",
+        "tweet_hashtags": [],
+        "tweet_urls": [
+            "http://bit.ly/1YX9CJn"
+        ]
+    },
+    {
+        "concepts": [
+            "December 12",
+            "December 8"
+        ],
+        "created_at": "2015-012-08T23:07:48Z",
+        "entities": [
+            "London",
+            "Syria"
+        ],
+        "favorite_count": 0,
+        "id": "674364785559998464",
+        "lang": "fr",
+        "retweet_count": 3,
+        "text_fr": "RT @RealFKNNews: 08 Dec | London | Veterans discard medals in Syria protest https://t.co/ZB2NHz2F5e https://t.co/QW9xFLgnhx",
+        "topic": "SyrianCrisis",
+        "tweet_hashtags": [],
+        "tweet_urls": [
+            "http://bit.ly/1YX9CJn"
+        ]
+    },
+    {
+        "concepts": [],
+        "created_at": "2015-012-09T04:31:01Z",
+        "entities": [],
+        "favorite_count": 0,
+        "id": "674446126804803584",
+        "lang": "fr",
+        "retweet_count": 0,
+        "text_fr": "08 Dec | London | Veterans discard medals in Syria protest https://t.co/E3IIxLRZDL https://t.co/QZJ2KLTPEh",
+        "topic": "SyrianCrisis",
+        "tweet_hashtags": [],
+        "tweet_urls": [
+            "http://bit.ly/1YX9CJn"
+        ]
+    },
+    {
+        "concepts": [],
+        "created_at": "2015-012-09T13:31:02Z",
+        "entities": [],
+        "favorite_count": 0,
+        "id": "674582025949601792",
+        "lang": "fr",
+        "retweet_count": 0,
+        "text_fr": "08 Dec | London | Veterans discard medals in Syria protest https://t.co/ZB2NHz2F5e https://t.co/bcIyoZ3D3Y",
+        "topic": "SyrianCrisis",
+        "tweet_hashtags": [],
+        "tweet_urls": [
+            "http://bit.ly/1YX9CJn"
+        ]
+    },
+    {
+        "concepts": [
+            "December 12",
+            "December 8"
+        ],
+        "created_at": "2015-012-09T19:59:04Z",
+        "entities": [
+            "London",
+            "Syria"
+        ],
+        "favorite_count": 0,
+        "id": "674679676158279680",
+        "lang": "fr",
+        "retweet_count": 10,
+        "text_fr": "RT @RealFKNNews: 08 Dec | London | Veterans discard medals in Syria protest https://t.co/ZB2NHz2F5e https://t.co/v4hMubpOu0",
+        "topic": "SyrianCrisis",
+        "tweet_hashtags": [],
+        "tweet_urls": [
+            "http://bit.ly/1YX9CJn"
+        ]
+    },
+    {
+        "concepts": [],
+        "created_at": "2015-012-08T22:50:19Z",
+        "entities": [
+            "Cameron"
+        ],
+        "favorite_count": 2,
+        "id": "674360386771099648",
+        "lang": "fr",
+        "retweet_count": 1,
+        "text_fr": "Cameron : les bombardements plut\u00f4t que la protection de l'environnement ! https://t.co/5FAbdJahQu https://t.co/AOBl6m84UA\u201d",
+        "topic": "SyrianCrisis",
+        "tweet_hashtags": [],
+        "tweet_urls": [
+            "https://tompride.wordpress.com/2015/12/06/uk-flood-defences-cut-while-millions-spent-on-bombing-syria-and-iraq/"
+        ]
+    },
+    {
+        "concepts": [
+            "December 12",
+            "December 8"
+        ],
+        "created_at": "2015-012-08T23:31:30Z",
+        "entities": [
+            "London",
+            "Syria"
+        ],
+        "favorite_count": 0,
+        "id": "674370749491240961",
+        "lang": "fr",
+        "retweet_count": 1,
+        "text_fr": "RT @RealFKNNews: 08 Dec | London | Veterans discard medals in Syria protest https://t.co/ZB2NHz2F5e https://t.co/AkYk44xODV",
+        "topic": "SyrianCrisis",
+        "tweet_hashtags": [],
+        "tweet_urls": [
+            "http://bit.ly/1YX9CJn"
+        ]
+    },
+    {
+        "concepts": [],
+        "created_at": "2015-012-09T17:31:06Z",
+        "entities": [],
+        "favorite_count": 0,
+        "id": "674642438238183425",
+        "lang": "fr",
+        "retweet_count": 1,
+        "text_fr": "08 Dec | London | Veterans discard medals in Syria protest https://t.co/E3IIxLRZDL https://t.co/u47w7Mt8sc",
+        "topic": "SyrianCrisis",
+        "tweet_hashtags": [],
+        "tweet_urls": [
+            "http://bit.ly/1YX9CJn"
+        ]
+    },
+    {
+        "concepts": [],
+        "created_at": "2015-012-09T00:19:27Z",
+        "entities": [
+            "Cameron"
+        ],
+        "favorite_count": 0,
+        "id": "674382814981287937",
+        "lang": "fr",
+        "retweet_count": 1,
+        "text_fr": "RT @jlLegalery: Cameron : les bombardements plut\u00f4t que la protection de l'environnement ! https://t.co/5FAbdJahQu https://t.co/AOBl6m84UA\u201d",
+        "topic": "SyrianCrisis",
+        "tweet_hashtags": [],
+        "tweet_urls": [
+            "https://tompride.wordpress.com/2015/12/06/uk-flood-defences-cut-while-millions-spent-on-bombing-syria-and-iraq/"
+        ]
+    },
+    {
+        "concepts": [],
+        "created_at": "2015-012-08T08:52:38Z",
+        "entities": [
+            "\u0421\u0438\u0440\u0438\u0438"
+        ],
+        "favorite_count": 0,
+        "id": "674149574789996544",
+        "lang": "ru",
+        "retweet_count": 0,
+        "text_ru": "\u0412 \u0440\u0435\u0437\u0443\u043b\u044c\u0442\u0430\u0442\u0435 \u043d\u043e\u0432\u044b\u0445 \u0431\u043e\u043c\u0431\u0430\u0440\u0434\u0438\u0440\u043e\u0432\u043e\u043a \u043f\u043e\u0437\u0438\u0446\u0438\u0439 \u0421\u0410\u0410 \u0430\u043c\u0435\u0440\u0438\u043a\u0430\u043d\u0441\u043a\u043e\u0439 \u043a\u043e\u0430\u043b\u0438\u0446\u0438\u0435\u0439 \u0432 \u0421\u0438\u0440\u0438\u0438 \u043f\u043e\u0433\u0438\u0431\u043b\u043e 26 \u043c\u0438\u0440\u043d\u044b\u0445 \u0436\u0438\u0442\u0435\u043b\u0435\u0439   https://t.co/V9VykxrQRZ",
+        "topic": "SyrianCrisis",
+        "tweet_hashtags": [],
+        "tweet_urls": [
+            "http://www.almasdarnews.com/article/u-s-led-coalition-kills-26-civilians-in-eastern-syria-after-bombing-the-syrian-army-hours-before/"
+        ]
+    },
+    {
+        "concepts": [
+            "December 12",
+            "December 8"
+        ],
+        "created_at": "2015-012-09T03:22:20Z",
+        "entities": [
+            "London",
+            "Syria"
+        ],
+        "favorite_count": 0,
+        "id": "674428842384183296",
+        "lang": "fr",
+        "retweet_count": 2,
+        "text_fr": "RT @RealFKNNews: 08 Dec | London | Veterans discard medals in Syria protest https://t.co/ZB2NHz2F5e https://t.co/CyE6pdMam7",
+        "topic": "SyrianCrisis",
+        "tweet_hashtags": [],
+        "tweet_urls": [
+            "http://bit.ly/1YX9CJn"
+        ]
+    },
+    {
+        "concepts": [],
+        "created_at": "2015-012-09T10:36:47Z",
+        "entities": [],
+        "favorite_count": 0,
+        "id": "674538175273041921",
+        "lang": "fr",
+        "retweet_count": 3,
+        "text_fr": "RT @RealFKNNews: 08 Dec | London | Veterans discard medals in Syria protest https://t.co/ZB2NHz2F5e https://t.co/ipOGP9ZiQV",
+        "topic": "SyrianCrisis",
+        "tweet_hashtags": [],
+        "tweet_urls": [
+            "http://bit.ly/1YX9CJn"
+        ]
+    },
+    {
+        "concepts": [],
+        "created_at": "2015-012-07T15:05:26Z",
+        "entities": [
+            "PQ",
+            "Syria"
+        ],
+        "favorite_count": 0,
+        "id": "673881007393738752",
+        "lang": "fr",
+        "retweet_count": 0,
+        "text_fr": "Si le PQ avait vraiment l'ambition de faire un pays!\nScottish people did not vote for action on Syria. \nhttps://t.co/SAB5jdlseK",
+        "topic": "SyrianCrisis",
+        "tweet_hashtags": [],
+        "tweet_urls": [
+            "http://www.independent.co.uk/voices/scottish-people-did-not-vote-for-bombing-in-syria-this-is-not-our-war-to-fight-a6761021.html"
+        ]
+    },
+    {
+        "concepts": [],
+        "created_at": "2015-012-08T23:31:03Z",
+        "entities": [],
+        "favorite_count": 1,
+        "id": "674370634235924480",
+        "lang": "fr",
+        "retweet_count": 1,
+        "text_fr": "08 Dec | London | Veterans discard medals in Syria protest https://t.co/ZB2NHz2F5e https://t.co/AkYk44xODV",
+        "topic": "SyrianCrisis",
+        "tweet_hashtags": [],
+        "tweet_urls": [
+            "http://bit.ly/1YX9CJn"
+        ]
+    },
+    {
+        "concepts": [],
+        "created_at": "2015-012-09T20:31:06Z",
+        "entities": [],
+        "favorite_count": 0,
+        "id": "674687736998191104",
+        "lang": "fr",
+        "retweet_count": 0,
+        "text_fr": "08 Dec | London | Veterans discard medals in Syria protest https://t.co/E3IIxLRZDL https://t.co/eX41S3UihP",
+        "topic": "SyrianCrisis",
+        "tweet_hashtags": [],
+        "tweet_urls": [
+            "http://bit.ly/1YX9CJn"
+        ]
+    },
+    {
+        "concepts": [],
+        "created_at": "2015-012-09T09:33:20Z",
+        "entities": [],
+        "favorite_count": 0,
+        "id": "674522206689300481",
+        "lang": "fr",
+        "retweet_count": 2,
+        "text_fr": "RT @RealFKNNews: 08 Dec | London | Veterans discard medals in Syria protest https://t.co/ZB2NHz2F5e https://t.co/DPFn8DpGXa",
+        "topic": "SyrianCrisis",
+        "tweet_hashtags": [],
+        "tweet_urls": [
+            "http://bit.ly/1YX9CJn"
+        ]
+    },
+    {
+        "concepts": [],
+        "created_at": "2015-012-09T03:31:10Z",
+        "entities": [],
+        "favorite_count": 2,
+        "id": "674431062165094400",
+        "lang": "fr",
+        "retweet_count": 3,
+        "text_fr": "08 Dec | London | Veterans discard medals in Syria protest https://t.co/ZB2NHz2F5e https://t.co/ipOGP9ZiQV",
+        "topic": "SyrianCrisis",
+        "tweet_hashtags": [],
+        "tweet_urls": [
+            "http://bit.ly/1YX9CJn"
+        ]
+    },
+    {
+        "concepts": [],
+        "created_at": "2015-012-07T12:50:24Z",
+        "entities": [],
+        "favorite_count": 0,
+        "id": "673847024492650496",
+        "lang": "de",
+        "retweet_count": 0,
+        "text_de": "Hier sieht man den irrationalen Herdentrieb... Und alle glauben, das mit dem 3. Reich w\u00e4re UNS NIE passiert und... https://t.co/vJRrvcKzIE",
+        "topic": "SyrianCrisis",
+        "tweet_hashtags": [],
+        "tweet_urls": [
+            "http://fb.me/EhmKrNXD"
+        ]
+    },
+    {
+        "concepts": [],
+        "created_at": "2015-012-09T19:31:03Z",
+        "entities": [],
+        "favorite_count": 4,
+        "id": "674672624065249280",
+        "lang": "fr",
+        "retweet_count": 10,
+        "text_fr": "08 Dec | London | Veterans discard medals in Syria protest https://t.co/ZB2NHz2F5e https://t.co/v4hMubpOu0",
+        "topic": "SyrianCrisis",
+        "tweet_hashtags": [],
+        "tweet_urls": [
+            "http://bit.ly/1YX9CJn"
+        ]
+    },
+    {
+        "concepts": [],
+        "created_at": "2015-012-09T09:31:39Z",
+        "entities": [],
+        "favorite_count": 0,
+        "id": "674521780338470912",
+        "lang": "fr",
+        "retweet_count": 2,
+        "text_fr": "RT @RealFKNNews: 08 Dec | London | Veterans discard medals in Syria protest https://t.co/ZB2NHz2F5e https://t.co/DPFn8DpGXa",
+        "topic": "SyrianCrisis",
+        "tweet_hashtags": [],
+        "tweet_urls": [
+            "http://bit.ly/1YX9CJn"
+        ]
+    },
+    {
+        "concepts": [
+            "December 12",
+            "December 8"
+        ],
+        "created_at": "2015-012-09T19:38:24Z",
+        "entities": [
+            "London",
+            "Syria"
+        ],
+        "favorite_count": 0,
+        "id": "674674474768343040",
+        "lang": "fr",
+        "retweet_count": 10,
+        "text_fr": "RT @RealFKNNews: 08 Dec | London | Veterans discard medals in Syria protest https://t.co/ZB2NHz2F5e https://t.co/v4hMubpOu0",
+        "topic": "SyrianCrisis",
+        "tweet_hashtags": [],
+        "tweet_urls": [
+            "http://bit.ly/1YX9CJn"
+        ]
+    },
+    {
+        "concepts": [
+            "December 12",
+            "December 8"
+        ],
+        "created_at": "2015-012-09T19:36:37Z",
+        "entities": [
+            "London",
+            "Syria"
+        ],
+        "favorite_count": 0,
+        "id": "674674026019688448",
+        "lang": "fr",
+        "retweet_count": 10,
+        "text_fr": "RT @RealFKNNews: 08 Dec | London | Veterans discard medals in Syria protest https://t.co/ZB2NHz2F5e https://t.co/v4hMubpOu0",
+        "topic": "SyrianCrisis",
+        "tweet_hashtags": [],
+        "tweet_urls": [
+            "http://bit.ly/1YX9CJn"
+        ]
+    },
+    {
+        "concepts": [
+            "December 12",
+            "December 8"
+        ],
+        "created_at": "2015-012-08T23:09:01Z",
+        "entities": [
+            "London",
+            "Syria"
+        ],
+        "favorite_count": 0,
+        "id": "674365091198967809",
+        "lang": "fr",
+        "retweet_count": 3,
+        "text_fr": "RT @RealFKNNews: 08 Dec | London | Veterans discard medals in Syria protest https://t.co/ZB2NHz2F5e https://t.co/QW9xFLgnhx",
+        "topic": "SyrianCrisis",
+        "tweet_hashtags": [],
+        "tweet_urls": [
+            "http://bit.ly/1YX9CJn"
+        ]
+    },
+    {
+        "concepts": [
+            "December 12",
+            "December 8"
+        ],
+        "created_at": "2015-012-09T19:33:21Z",
+        "entities": [
+            "London",
+            "Syria"
+        ],
+        "favorite_count": 0,
+        "id": "674673206771343360",
+        "lang": "fr",
+        "retweet_count": 10,
+        "text_fr": "RT @RealFKNNews: 08 Dec | London | Veterans discard medals in Syria protest https://t.co/ZB2NHz2F5e https://t.co/v4hMubpOu0",
+        "topic": "SyrianCrisis",
+        "tweet_hashtags": [],
+        "tweet_urls": [
+            "http://bit.ly/1YX9CJn"
+        ]
+    },
+    {
+        "concepts": [
+            "December 12",
+            "December 8"
+        ],
+        "created_at": "2015-012-09T02:37:45Z",
+        "entities": [
+            "London",
+            "Syria"
+        ],
+        "favorite_count": 0,
+        "id": "674417620205109248",
+        "lang": "fr",
+        "retweet_count": 2,
+        "text_fr": "RT @RealFKNNews: 08 Dec | London | Veterans discard medals in Syria protest https://t.co/ZB2NHz2F5e https://t.co/CyE6pdMam7",
+        "topic": "SyrianCrisis",
+        "tweet_hashtags": [],
+        "tweet_urls": [
+            "http://bit.ly/1YX9CJn"
+        ]
+    },
+    {
+        "concepts": [],
+        "created_at": "2015-012-09T09:31:04Z",
+        "entities": [],
+        "favorite_count": 2,
+        "id": "674521633982427136",
+        "lang": "fr",
+        "retweet_count": 2,
+        "text_fr": "08 Dec | London | Veterans discard medals in Syria protest https://t.co/ZB2NHz2F5e https://t.co/DPFn8DpGXa",
+        "topic": "SyrianCrisis",
+        "tweet_hashtags": [],
+        "tweet_urls": [
+            "http://bit.ly/1YX9CJn"
+        ]
+    },
+    {
+        "concepts": [
+            "December 12",
+            "December 8"
+        ],
+        "created_at": "2015-012-09T07:43:56Z",
+        "entities": [
+            "London",
+            "Syria"
+        ],
+        "favorite_count": 0,
+        "id": "674494675764539392",
+        "lang": "fr",
+        "retweet_count": 1,
+        "text_fr": "RT @RealFKNNews: 08 Dec | London | Veterans discard medals in Syria protest https://t.co/ZB2NHz2F5e https://t.co/NFHj0jrP5G",
+        "topic": "SyrianCrisis",
+        "tweet_hashtags": [],
+        "tweet_urls": [
+            "http://bit.ly/1YX9CJn"
+        ]
+    },
+    {
+        "concepts": [],
+        "created_at": "2015-012-09T09:31:02Z",
+        "entities": [],
+        "favorite_count": 0,
+        "id": "674521628122996736",
+        "lang": "fr",
+        "retweet_count": 0,
+        "text_fr": "08 Dec | London | Veterans discard medals in Syria protest https://t.co/E3IIxLRZDL https://t.co/SoPyHTN6sX",
+        "topic": "SyrianCrisis",
+        "tweet_hashtags": [],
+        "tweet_urls": [
+            "http://bit.ly/1YX9CJn"
+        ]
+    },
+    {
+        "concepts": [],
+        "created_at": "2015-012-08T22:31:43Z",
+        "entities": [],
+        "favorite_count": 1,
+        "id": "674355706120839169",
+        "lang": "fr",
+        "retweet_count": 3,
+        "text_fr": "08 Dec | London | Veterans discard medals in Syria protest https://t.co/ZB2NHz2F5e https://t.co/QW9xFLgnhx",
+        "topic": "SyrianCrisis",
+        "tweet_hashtags": [],
+        "tweet_urls": [
+            "http://bit.ly/1YX9CJn"
+        ]
+    },
+    {
+        "concepts": [],
+        "created_at": "2015-012-08T22:31:42Z",
+        "entities": [],
+        "favorite_count": 0,
+        "id": "674355700840185856",
+        "lang": "fr",
+        "retweet_count": 0,
+        "text_fr": "08 Dec | London | Veterans discard medals in Syria protest https://t.co/E3IIxLRZDL https://t.co/AJVGEUi8YU",
+        "topic": "SyrianCrisis",
+        "tweet_hashtags": [],
+        "tweet_urls": [
+            "http://bit.ly/1YX9CJn"
+        ]
+    },
+    {
+        "concepts": [
+            "December 12",
+            "December 8"
+        ],
+        "created_at": "2015-012-09T21:40:52Z",
+        "entities": [
+            "London",
+            "Syria"
+        ],
+        "favorite_count": 0,
+        "id": "674705295176781825",
+        "lang": "fr",
+        "retweet_count": 10,
+        "text_fr": "RT @RealFKNNews: 08 Dec | London | Veterans discard medals in Syria protest https://t.co/ZB2NHz2F5e https://t.co/v4hMubpOu0",
+        "topic": "SyrianCrisis",
+        "tweet_hashtags": [],
+        "tweet_urls": [
+            "http://bit.ly/1YX9CJn"
+        ]
+    },
+    {
+        "concepts": [],
+        "created_at": "2015-012-09T20:31:07Z",
+        "entities": [],
+        "favorite_count": 1,
+        "id": "674687743558098945",
+        "lang": "fr",
+        "retweet_count": 2,
+        "text_fr": "08 Dec | London | Veterans discard medals in Syria protest https://t.co/ZB2NHz2F5e https://t.co/wm9pdolMSD",
+        "topic": "SyrianCrisis",
+        "tweet_hashtags": [],
+        "tweet_urls": [
+            "http://bit.ly/1YX9CJn"
+        ]
+    },
+    {
+        "concepts": [
+            "December 12",
+            "December 8"
+        ],
+        "created_at": "2015-012-09T19:40:11Z",
+        "entities": [
+            "London",
+            "Syria"
+        ],
+        "favorite_count": 0,
+        "id": "674674925089726464",
+        "lang": "fr",
+        "retweet_count": 10,
+        "text_fr": "RT @RealFKNNews: 08 Dec | London | Veterans discard medals in Syria protest https://t.co/ZB2NHz2F5e https://t.co/v4hMubpOu0",
+        "topic": "SyrianCrisis",
+        "tweet_hashtags": [],
+        "tweet_urls": [
+            "http://bit.ly/1YX9CJn"
+        ]
+    },
+    {
+        "concepts": [
+            "December 12",
+            "December 8"
+        ],
+        "created_at": "2015-012-08T23:06:39Z",
+        "entities": [
+            "London",
+            "Syria"
+        ],
+        "favorite_count": 0,
+        "id": "674364497444892676",
+        "lang": "fr",
+        "retweet_count": 3,
+        "text_fr": "RT @RealFKNNews: 08 Dec | London | Veterans discard medals in Syria protest https://t.co/ZB2NHz2F5e https://t.co/QW9xFLgnhx",
+        "topic": "SyrianCrisis",
+        "tweet_hashtags": [],
+        "tweet_urls": [
+            "http://bit.ly/1YX9CJn"
+        ]
+    },
+    {
+        "concepts": [],
+        "created_at": "2015-012-09T15:35:40Z",
+        "entities": [],
+        "favorite_count": 0,
+        "id": "674613391059718144",
+        "lang": "fr",
+        "retweet_count": 1,
+        "text_fr": "RT @RealFKNNews: 08 Dec | London | Veterans discard medals in Syria protest https://t.co/ZB2NHz2F5e https://t.co/eJpz5gYwCp",
+        "topic": "SyrianCrisis",
+        "tweet_hashtags": [],
+        "tweet_urls": [
+            "http://bit.ly/1YX9CJn"
+        ]
+    },
+    {
+        "concepts": [],
+        "created_at": "2015-012-09T14:36:04Z",
+        "entities": [],
+        "favorite_count": 0,
+        "id": "674598391096086528",
+        "lang": "fr",
+        "retweet_count": 1,
+        "text_fr": "RT @Fhilosofile: 08 Dec | London | Veterans discard medals in Syria protest https://t.co/E3IIxLRZDL https://t.co/q8x1nkhn9K",
+        "topic": "SyrianCrisis",
+        "tweet_hashtags": [],
+        "tweet_urls": [
+            "http://bit.ly/1YX9CJn"
+        ]
+    },
+    {
+        "concepts": [],
+        "created_at": "2015-012-09T22:31:02Z",
+        "entities": [],
+        "favorite_count": 0,
+        "id": "674717918752583681",
+        "lang": "fr",
+        "retweet_count": 0,
+        "text_fr": "08 Dec | London | Veterans discard medals in Syria protest https://t.co/E3IIxLRZDL https://t.co/3JQiRHiiux",
+        "topic": "SyrianCrisis",
+        "tweet_hashtags": [],
+        "tweet_urls": [
+            "http://bit.ly/1YX9CJn"
+        ]
+    },
+    {
+        "concepts": [
+            "December 12",
+            "December 8"
+        ],
+        "created_at": "2015-012-09T19:32:39Z",
+        "entities": [
+            "London",
+            "Syria"
+        ],
+        "favorite_count": 0,
+        "id": "674673029545201664",
+        "lang": "fr",
+        "retweet_count": 10,
+        "text_fr": "RT @RealFKNNews: 08 Dec | London | Veterans discard medals in Syria protest https://t.co/ZB2NHz2F5e https://t.co/v4hMubpOu0",
+        "topic": "SyrianCrisis",
+        "tweet_hashtags": [],
+        "tweet_urls": [
+            "http://bit.ly/1YX9CJn"
+        ]
+    },
+    {
+        "concepts": [],
+        "created_at": "2015-012-09T03:34:11Z",
+        "entities": [],
+        "favorite_count": 0,
+        "id": "674431823347359744",
+        "lang": "fr",
+        "retweet_count": 3,
+        "text_fr": "RT @RealFKNNews: 08 Dec | London | Veterans discard medals in Syria protest https://t.co/ZB2NHz2F5e https://t.co/ipOGP9ZiQV",
+        "topic": "SyrianCrisis",
+        "tweet_hashtags": [],
+        "tweet_urls": [
+            "http://bit.ly/1YX9CJn"
+        ]
+    },
+    {
+        "concepts": [],
+        "created_at": "2015-012-09T15:31:03Z",
+        "entities": [],
+        "favorite_count": 0,
+        "id": "674612229795397636",
+        "lang": "fr",
+        "retweet_count": 1,
+        "text_fr": "08 Dec | London | Veterans discard medals in Syria protest https://t.co/ZB2NHz2F5e https://t.co/eJpz5gYwCp",
+        "topic": "SyrianCrisis",
+        "tweet_hashtags": [],
+        "tweet_urls": [
+            "http://bit.ly/1YX9CJn"
+        ]
+    },
+    {
+        "concepts": [],
+        "created_at": "2015-012-09T01:31:55Z",
+        "entities": [],
+        "favorite_count": 0,
+        "id": "674401052343599104",
+        "lang": "fr",
+        "retweet_count": 0,
+        "text_fr": "08 Dec | London | Veterans discard medals in Syria protest https://t.co/E3IIxLRZDL https://t.co/EfUOUd2wQz",
+        "topic": "SyrianCrisis",
+        "tweet_hashtags": [],
+        "tweet_urls": [
+            "http://bit.ly/1YX9CJn"
+        ]
+    },
+    {
+        "concepts": [],
+        "created_at": "2015-012-09T02:31:01Z",
+        "entities": [],
+        "favorite_count": 0,
+        "id": "674415928004726784",
+        "lang": "fr",
+        "retweet_count": 2,
+        "text_fr": "08 Dec | London | Veterans discard medals in Syria protest https://t.co/ZB2NHz2F5e https://t.co/CyE6pdMam7",
+        "topic": "SyrianCrisis",
+        "tweet_hashtags": [],
+        "tweet_urls": [
+            "http://bit.ly/1YX9CJn"
+        ]
+    },
+    {
+        "concepts": [],
+        "created_at": "2015-012-09T07:31:05Z",
+        "entities": [],
+        "favorite_count": 2,
+        "id": "674491441201209344",
+        "lang": "fr",
+        "retweet_count": 1,
+        "text_fr": "08 Dec | London | Veterans discard medals in Syria protest https://t.co/ZB2NHz2F5e https://t.co/NFHj0jrP5G",
+        "topic": "SyrianCrisis",
+        "tweet_hashtags": [],
+        "tweet_urls": [
+            "http://bit.ly/1YX9CJn"
+        ]
+    },
+    {
+        "concepts": [
+            "December 12",
+            "December 8"
+        ],
+        "created_at": "2015-012-09T20:33:05Z",
+        "entities": [
+            "London",
+            "Syria"
+        ],
+        "favorite_count": 0,
+        "id": "674688237668073473",
+        "lang": "fr",
+        "retweet_count": 2,
+        "text_fr": "RT @RealFKNNews: 08 Dec | London | Veterans discard medals in Syria protest https://t.co/ZB2NHz2F5e https://t.co/wm9pdolMSD",
+        "topic": "SyrianCrisis",
+        "tweet_hashtags": [],
+        "tweet_urls": [
+            "http://bit.ly/1YX9CJn"
+        ]
+    },
+    {
+        "concepts": [
+            "December 12",
+            "December 8"
+        ],
+        "created_at": "2015-012-09T20:12:51Z",
+        "entities": [
+            "London",
+            "Syria"
+        ],
+        "favorite_count": 0,
+        "id": "674683143308320769",
+        "lang": "fr",
+        "retweet_count": 10,
+        "text_fr": "RT @RealFKNNews: 08 Dec | London | Veterans discard medals in Syria protest https://t.co/ZB2NHz2F5e https://t.co/v4hMubpOu0",
+        "topic": "SyrianCrisis",
+        "tweet_hashtags": [],
+        "tweet_urls": [
+            "http://bit.ly/1YX9CJn"
+        ]
+    },
+    {
+        "concepts": [],
+        "created_at": "2015-012-09T13:31:01Z",
+        "entities": [],
+        "favorite_count": 0,
+        "id": "674582021893578752",
+        "lang": "fr",
+        "retweet_count": 0,
+        "text_fr": "08 Dec | London | Veterans discard medals in Syria protest https://t.co/E3IIxM9Avj https://t.co/tFXfL4HZ48",
+        "topic": "SyrianCrisis",
+        "tweet_hashtags": [],
+        "tweet_urls": [
+            "http://bit.ly/1YX9CJn"
+        ]
+    },
+    {
+        "concepts": [
+            "December 12",
+            "December 8"
+        ],
+        "created_at": "2015-012-09T20:42:51Z",
+        "entities": [
+            "London",
+            "Syria"
+        ],
+        "favorite_count": 0,
+        "id": "674690697061138432",
+        "lang": "fr",
+        "retweet_count": 2,
+        "text_fr": "RT @RealFKNNews: 08 Dec | London | Veterans discard medals in Syria protest https://t.co/ZB2NHz2F5e https://t.co/wm9pdolMSD",
+        "topic": "SyrianCrisis",
+        "tweet_hashtags": [],
+        "tweet_urls": [
+            "http://bit.ly/1YX9CJn"
+        ]
+    },
+    {
+        "concepts": [],
+        "created_at": "2015-012-09T07:31:04Z",
+        "entities": [],
+        "favorite_count": 0,
+        "id": "674491437271093252",
+        "lang": "fr",
+        "retweet_count": 0,
+        "text_fr": "08 Dec | London | Veterans discard medals in Syria protest https://t.co/E3IIxLRZDL https://t.co/8JyLJ6LGQr",
+        "topic": "SyrianCrisis",
+        "tweet_hashtags": [],
+        "tweet_urls": [
+            "http://bit.ly/1YX9CJn"
+        ]
+    },
+    {
+        "concepts": [],
+        "created_at": "2015-012-07T21:27:08Z",
+        "entities": [
+            "Phoenix"
+        ],
+        "favorite_count": 0,
+        "id": "673977064383451136",
+        "lang": "de",
+        "retweet_count": 0,
+        "text_de": ". @msgbi @luebberding \nPhoenix  Unter den Linden \nRocky Horror bombing Syria show \nf\u00fcr das normale blubbshow Publikum\nevtl. Mediathek",
+        "topic": "SyrianCrisis",
+        "tweet_hashtags": [],
+        "tweet_urls": []
+    },
+    {
+        "concepts": [
+            "December 12",
+            "December 8"
+        ],
+        "created_at": "2015-012-09T19:45:38Z",
+        "entities": [
+            "London",
+            "Syria"
+        ],
+        "favorite_count": 0,
+        "id": "674676295041720321",
+        "lang": "fr",
+        "retweet_count": 10,
+        "text_fr": "RT @RealFKNNews: 08 Dec | London | Veterans discard medals in Syria protest https://t.co/ZB2NHz2F5e https://t.co/v4hMubpOu0",
+        "topic": "SyrianCrisis",
+        "tweet_hashtags": [],
+        "tweet_urls": [
+            "http://bit.ly/1YX9CJn"
+        ]
+    },
+    {
+        "concepts": [],
+        "created_at": "2015-012-08T21:30:05Z",
+        "entities": [],
+        "favorite_count": 0,
+        "id": "674340195857260544",
+        "lang": "fr",
+        "retweet_count": 0,
+        "text_fr": "08 Dec | London | Veterans discard medals in Syria protest: https://t.co/e3027An8WI",
+        "topic": "SyrianCrisis",
+        "tweet_hashtags": [],
+        "tweet_urls": [
+            "http://stopwar.org.uk/index.php/events/stop-the-war-events-national/war-veterans-to-discard-medals-in-protest-against-uk-bombing-of-syria#.VmdL0CG4U78.twitter"
+        ]
+    },
+    {
+        "concepts": [],
+        "created_at": "2015-012-09T17:34:29Z",
+        "entities": [],
+        "favorite_count": 0,
+        "id": "674643293033119745",
+        "lang": "fr",
+        "retweet_count": 1,
+        "text_fr": "RT @Fhilosofile: 08 Dec | London | Veterans discard medals in Syria protest https://t.co/E3IIxLRZDL https://t.co/u47w7Mt8sc",
+        "topic": "SyrianCrisis",
+        "tweet_hashtags": [],
+        "tweet_urls": [
+            "http://bit.ly/1YX9CJn"
+        ]
+    }
+]

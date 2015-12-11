@@ -6,6 +6,7 @@ import calendar
 import sys
 from datetime import date, timedelta 
 import json
+import simplejson
 import os.path
 import tweepy
 import codecs
@@ -22,10 +23,8 @@ tweetDict = {}
 months = {v: k for k,v in enumerate(calendar.month_abbr)}
 taggedDict = {}
 dates = []
-tweetCount = {'en':0, 'fr': 0, 'de': 0, 'ru' : 0 ,'ar' : 0}
+tweetCount = {'fr': 0, 'de': 0, 'ru' : 0 }
 entityTypes = ['Person', 'Country', 'Organization', 'Company', 'StateOrCounty', 'City', 'GeographicFeature', 'Region']
-removeChars = ["(",")", "#",":"]
-regexPatterns = ["RT","@.*","htt.*"]
 keys = [
 	'bcae79f944a5cb0db0c70a8951776c3086478d09',
 	'c906c5f952b6e30b619412f715441afb48b40595',
@@ -79,13 +78,12 @@ def getTweets(queryString):
 	     lang=lng, \
 	     since=sDate, \
 	     until=eDate, \
-	     count=count_max,\
-	     filter='retweets')
+	     count=count_max)
 	     tweetCount[lng] += len(tweets['statuses'])
 	     twtRes += tweets['statuses']
 	 for tweet in twtRes:
              processTweet(tweet)
- 	 writeTweetsToFile(queryString,sDate, eDate)
+    writeTweetsToFile(queryString,dates[0], dates[-1])
  	 
 # Extract hashtags out of tweet
 def processHashtags(tweet):
@@ -161,23 +159,6 @@ def getTag(text, id):
 	return tag['concepts'], tag['entities']
 	
 
-def getSimpleText(text):
-   global removeChars, regexPatterns
-   line = text.split()
-   try:
-    for i in range(0,len(line)):
-        line[i]
-        for pattern in regexPatterns:
-            if re.match(pattern,line[i]):
-                line[i] = ''
-                continue
-        for ch in removeChars:
-            line[i] = line[i].replace(ch,'')
-    except:
-    	print('Error in parsing: ', line)
-    	pass
-    return ' '.join(line).strip().encode('utf-8')
-
 
 #Process given tweet and extract all info
 def processTweet(tweet):
@@ -187,7 +168,6 @@ def processTweet(tweet):
 	twt['id'] = tweet['id_str']
 	twt['lang'] = tweet['lang']
 	textKeyName += twt['lang']
-	twt['topic'] = sys.argv[3]
 	twt[textKeyName] = tweet['text'].encode('utf-8')
 	twt['tweet_hashtags'] = processHashtags(tweet)
 	twt['tweet_urls'] = processUrls(tweet)
@@ -195,47 +175,17 @@ def processTweet(tweet):
 	twt['retweet_count'] = tweet['retweet_count']
 	twt['favorite_count'] = tweet['favorite_count']
 	twt['concepts'] , twt['entities'] = getTag(twt[textKeyName],twt['id'] )
-	twt[textKeyName+'_modified'] = getSimpleText(twt['textKeyName'])
 	tweetDict[twt['id']] = twt
 
-'''
-def writeTagsToFile(fileName):
-	global taggedDict
-	f = codecs.open(fileName,'w','utf-8')
-	f.write('[')
-	tlist = taggedDict.values()
-	tlen = len(tlist)-1
-	for tweet in tlist:
-		f.write(json.dumps(tweet))
-		if(tlist.index(tweet) != tlen):
-			f.write(",")
-	f.write("]")
-	f.close()
-'''
 
 def writeTweetsToFile(queryString, fromDate, toDate):
 	global tweetDict
 	outFileName = '_'.join(["tweets",queryString.replace(' ','_'), fromDate, toDate])
 	f = codecs.open(outFileName+".json",'w','utf-8')
-	f.write('[')
 	tlist = tweetDict.values()
-	tlen = len(tlist)-1
 	jsondata = simplejson.dumps(tlist, indent=4, skipkeys=True, sort_keys=True)
 	f.write(jsondata)
 	f.close()
-
-'''	for tweet in tlist:
-		f.write(json.dumps(tweet))
-		if(tlist.index(tweet) != tlen):
-			f.write(",")
-	f.write("]")
-	f.close()
-	raw = codecs.open(outFileName+"_raw"+".json",'w','utf-8')
-	print(tlist,file=raw)
-	raw.close()
-	tweetDict = {}
-	writeTagsToFile(outFileName+"_tagged.json")
-'''
 
 #Entry point
 def main():		

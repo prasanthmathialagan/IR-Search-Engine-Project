@@ -1,0 +1,874 @@
+[
+    {
+        "concepts": [],
+        "created_at": "2015-012-02T12:26:57Z",
+        "entities": [
+            "Briton",
+            "Kenya"
+        ],
+        "favorite_count": 0,
+        "id": "672029181610475520",
+        "lang": "en",
+        "retweet_count": 15,
+        "text_en": "RT @ReutersAfrica: Briton accused of plotting attacks in #Kenya jailed for nine years  https://t.co/hpxgEO0iZt https://t.co/oCaYqm7o80",
+        "text_en_modified": "Briton accused of plotting attacks in Kenya jailed for nine years",
+        "topic": "KenyanBombing",
+        "tweet_hashtags": [
+            "Kenya"
+        ],
+        "tweet_urls": [
+            "http://af.reuters.com/article/topNews/idAFKBN0TL0WJ20151202"
+        ]
+    },
+    {
+        "concepts": [],
+        "created_at": "2015-012-02T10:20:28Z",
+        "entities": [
+            "Kenya",
+            "Briton"
+        ],
+        "favorite_count": 0,
+        "id": "671997351528022016",
+        "lang": "en",
+        "retweet_count": 0,
+        "text_en": "#Briton accused of plotting attacks in #Kenya jailed for nine years\n#JermaineGrant \n\nhttps://t.co/qWmAyMvg54 https://t.co/oPgobQYOdd",
+        "text_en_modified": "Briton accused of plotting attacks in Kenya jailed for nine years JermaineGrant",
+        "topic": "KenyanBombing",
+        "tweet_hashtags": [
+            "Briton",
+            "Kenya",
+            "JermaineGrant"
+        ],
+        "tweet_urls": [
+            "http://bit.ly/1IDJslm"
+        ]
+    },
+    {
+        "concepts": [
+            "The Wall",
+            "Stop",
+            "Waiting for the Worms"
+        ],
+        "created_at": "2015-012-02T08:57:23Z",
+        "entities": [
+            "Kenya",
+            "Somalia"
+        ],
+        "favorite_count": 0,
+        "id": "671976444772360192",
+        "lang": "en",
+        "retweet_count": 1,
+        "text_en": "RT @HamidullahBabu: Can a 700km wall along the #Kenya - #Somalia border stop #AlShabab attacks?  \n\nhttps://t.co/iHWKZuAsqv #Africa https://\u2026",
+        "text_en_modified": "Can a 700km wall along the Kenya - Somalia border stop AlShabab attacks?  Africa",
+        "topic": "KenyanBombing",
+        "tweet_hashtags": [
+            "Kenya",
+            "Somalia",
+            "AlShabab",
+            "Africa"
+        ],
+        "tweet_urls": [
+            "http://aje.io/kcsh"
+        ]
+    },
+    {
+        "concepts": [],
+        "created_at": "2015-012-02T12:24:13Z",
+        "entities": [
+            "Briton",
+            "Kenya"
+        ],
+        "favorite_count": 0,
+        "id": "672028494839287808",
+        "lang": "en",
+        "retweet_count": 15,
+        "text_en": "RT @ReutersAfrica: Briton accused of plotting attacks in #Kenya jailed for nine years  https://t.co/hpxgEO0iZt https://t.co/oCaYqm7o80",
+        "text_en_modified": "Briton accused of plotting attacks in Kenya jailed for nine years",
+        "topic": "KenyanBombing",
+        "tweet_hashtags": [
+            "Kenya"
+        ],
+        "tweet_urls": [
+            "http://af.reuters.com/article/topNews/idAFKBN0TL0WJ20151202"
+        ]
+    },
+    {
+        "concepts": [],
+        "created_at": "2015-012-02T12:09:18Z",
+        "entities": [
+            "Fifa",
+            "Africa",
+            "Kenya"
+        ],
+        "favorite_count": 0,
+        "id": "672024739834130432",
+        "lang": "en",
+        "retweet_count": 0,
+        "text_en": "Fifa discusses reforms amid new sponsor attacks https://t.co/fdCG5J0TrJ #Kenya #Africa",
+        "text_en_modified": "Fifa discusses reforms amid new sponsor attacks  Kenya Africa",
+        "topic": "KenyanBombing",
+        "tweet_hashtags": [
+            "Kenya",
+            "Africa"
+        ],
+        "tweet_urls": [
+            "http://ift.tt/1IDZITr"
+        ]
+    },
+    {
+        "concepts": [
+            "United Kingdom",
+            "English law"
+        ],
+        "created_at": "2015-012-02T10:57:53Z",
+        "entities": [
+            "Jermaine Grant",
+            "Mombasa court",
+            "Kenya"
+        ],
+        "favorite_count": 0,
+        "id": "672006769300799492",
+        "lang": "en",
+        "retweet_count": 8,
+        "text_en": "RT @Daudoo: British #AlShabaab suspect, Jermaine Grant, sentenced to 9 yrs by a #Mombasa court for \"plotting\" attacks in #Kenya https://t.c\u2026",
+        "text_en_modified": "British AlShabaab suspect, Jermaine Grant, sentenced to 9 yrs by a Mombasa court for \"plotting\" attacks in Kenya",
+        "topic": "KenyanBombing",
+        "tweet_hashtags": [
+            "AlShabaab",
+            "Mombasa",
+            "Kenya"
+        ],
+        "tweet_urls": []
+    },
+    {
+        "concepts": [
+            "United Kingdom",
+            "English law"
+        ],
+        "created_at": "2015-012-02T09:21:48Z",
+        "entities": [
+            "Jermaine Grant",
+            "Mombasa court",
+            "Kenya"
+        ],
+        "favorite_count": 0,
+        "id": "671982590165843968",
+        "lang": "en",
+        "retweet_count": 8,
+        "text_en": "RT @Daudoo: British #AlShabaab suspect, Jermaine Grant, sentenced to 9 yrs by a #Mombasa court for \"plotting\" attacks in #Kenya https://t.c\u2026",
+        "text_en_modified": "British AlShabaab suspect, Jermaine Grant, sentenced to 9 yrs by a Mombasa court for \"plotting\" attacks in Kenya",
+        "topic": "KenyanBombing",
+        "tweet_hashtags": [
+            "AlShabaab",
+            "Mombasa",
+            "Kenya"
+        ],
+        "tweet_urls": []
+    },
+    {
+        "concepts": [],
+        "created_at": "2015-012-02T07:47:05Z",
+        "entities": [],
+        "favorite_count": 0,
+        "id": "671958750857576449",
+        "lang": "en",
+        "retweet_count": 0,
+        "text_en": "#Iran\u2019s embassy rejects #Kenya \u2018attacks\u2019 plot: Nairobi, Kenya ( Agencies + DIPLOMAT.SO) \u2013 Iran\u2019s e... https://t.co/uktaEX8ZMf @DiplomatSo",
+        "text_en_modified": "Iran\u2019s embassy rejects Kenya \u2018attacks\u2019 plot Nairobi, Kenya  Agencies + DIPLOMAT.SO \u2013 Iran\u2019s e...",
+        "topic": "KenyanBombing",
+        "tweet_hashtags": [
+            "Iran",
+            "Kenya"
+        ],
+        "tweet_urls": [
+            "http://bit.ly/1RlCwkh"
+        ]
+    },
+    {
+        "concepts": [
+            "United Kingdom",
+            "English law"
+        ],
+        "created_at": "2015-012-02T09:38:20Z",
+        "entities": [
+            "Jermaine Grant",
+            "Mombasa court",
+            "Kenya"
+        ],
+        "favorite_count": 0,
+        "id": "671986749006995456",
+        "lang": "en",
+        "retweet_count": 8,
+        "text_en": "RT @Daudoo: British #AlShabaab suspect, Jermaine Grant, sentenced to 9 yrs by a #Mombasa court for \"plotting\" attacks in #Kenya https://t.c\u2026",
+        "text_en_modified": "British AlShabaab suspect, Jermaine Grant, sentenced to 9 yrs by a Mombasa court for \"plotting\" attacks in Kenya",
+        "topic": "KenyanBombing",
+        "tweet_hashtags": [
+            "AlShabaab",
+            "Mombasa",
+            "Kenya"
+        ],
+        "tweet_urls": []
+    },
+    {
+        "concepts": [],
+        "created_at": "2015-012-02T15:24:08Z",
+        "entities": [
+            "Africa",
+            "Kenya"
+        ],
+        "favorite_count": 0,
+        "id": "672073772682321920",
+        "lang": "en",
+        "retweet_count": 0,
+        "text_en": "Fears high amid attacks on Somali MPs https://t.co/RdPGccLDMU #Kenya #Africa",
+        "text_en_modified": "Fears high amid attacks on Somali MPs  Kenya Africa",
+        "topic": "KenyanBombing",
+        "tweet_hashtags": [
+            "Kenya",
+            "Africa"
+        ],
+        "tweet_urls": [
+            "http://ift.tt/1Ip2Bg5"
+        ]
+    },
+    {
+        "concepts": [],
+        "created_at": "2015-012-02T12:23:50Z",
+        "entities": [
+            "Briton",
+            "Kenya"
+        ],
+        "favorite_count": 2,
+        "id": "672028399347609600",
+        "lang": "en",
+        "retweet_count": 15,
+        "text_en": "Briton accused of plotting attacks in #Kenya jailed for nine years  https://t.co/hpxgEO0iZt https://t.co/oCaYqm7o80",
+        "text_en_modified": "Briton accused of plotting attacks in Kenya jailed for nine years",
+        "topic": "KenyanBombing",
+        "tweet_hashtags": [
+            "Kenya"
+        ],
+        "tweet_urls": [
+            "http://af.reuters.com/article/topNews/idAFKBN0TL0WJ20151202"
+        ]
+    },
+    {
+        "concepts": [],
+        "created_at": "2015-012-02T13:14:03Z",
+        "entities": [
+            "Briton",
+            "Kenya"
+        ],
+        "favorite_count": 0,
+        "id": "672041036127084545",
+        "lang": "en",
+        "retweet_count": 15,
+        "text_en": "RT @ReutersAfrica: Briton accused of plotting attacks in #Kenya jailed for nine years  https://t.co/hpxgEO0iZt https://t.co/oCaYqm7o80",
+        "text_en_modified": "Briton accused of plotting attacks in Kenya jailed for nine years",
+        "topic": "KenyanBombing",
+        "tweet_hashtags": [
+            "Kenya"
+        ],
+        "tweet_urls": [
+            "http://af.reuters.com/article/topNews/idAFKBN0TL0WJ20151202"
+        ]
+    },
+    {
+        "concepts": [
+            "United Kingdom",
+            "Coast Province",
+            "Kenya",
+            "Mombasa",
+            "British nationality law",
+            "Nairobi"
+        ],
+        "created_at": "2015-012-02T09:17:11Z",
+        "entities": [
+            "Jermaine Grant",
+            "Mombasa",
+            "Kenya"
+        ],
+        "favorite_count": 0,
+        "id": "671981425814564864",
+        "lang": "en",
+        "retweet_count": 0,
+        "text_en": "A British citizen, Jermaine Grant, accused of plotting terror attacks on the Kenyan coast has been jailed for nine years in Mombasa #Kenya\"",
+        "text_en_modified": "A British citizen, Jermaine Grant, accused of plotting terror attacks on the Kenyan coast has been jailed for nine years in Mombasa Kenya\"",
+        "topic": "KenyanBombing",
+        "tweet_hashtags": [
+            "Kenya"
+        ],
+        "tweet_urls": []
+    },
+    {
+        "concepts": [
+            "United Kingdom",
+            "Coast Province",
+            "Kenya",
+            "Mombasa",
+            "British nationality law",
+            "Nairobi"
+        ],
+        "created_at": "2015-012-02T09:09:23Z",
+        "entities": [
+            "Jermaine Grant",
+            "Mombasa",
+            "Kenya"
+        ],
+        "favorite_count": 1,
+        "id": "671979461835911168",
+        "lang": "en",
+        "retweet_count": 0,
+        "text_en": "A British citizen, Jermaine Grant, accused of plotting terror attacks on the Kenyan coast has been jailed for nine years in Mombasa #Kenya",
+        "text_en_modified": "A British citizen, Jermaine Grant, accused of plotting terror attacks on the Kenyan coast has been jailed for nine years in Mombasa Kenya",
+        "topic": "KenyanBombing",
+        "tweet_hashtags": [
+            "Kenya"
+        ],
+        "tweet_urls": []
+    },
+    {
+        "concepts": [
+            "United Kingdom",
+            "English law"
+        ],
+        "created_at": "2015-012-02T09:29:07Z",
+        "entities": [
+            "Jermaine Grant",
+            "Mombasa court",
+            "Kenya"
+        ],
+        "favorite_count": 0,
+        "id": "671984431368835072",
+        "lang": "en",
+        "retweet_count": 8,
+        "text_en": "RT @Daudoo: British #AlShabaab suspect, Jermaine Grant, sentenced to 9 yrs by a #Mombasa court for \"plotting\" attacks in #Kenya https://t.c\u2026",
+        "text_en_modified": "British AlShabaab suspect, Jermaine Grant, sentenced to 9 yrs by a Mombasa court for \"plotting\" attacks in Kenya",
+        "topic": "KenyanBombing",
+        "tweet_hashtags": [
+            "AlShabaab",
+            "Mombasa",
+            "Kenya"
+        ],
+        "tweet_urls": []
+    },
+    {
+        "concepts": [
+            "The Wall",
+            "Stop",
+            "Waiting for the Worms"
+        ],
+        "created_at": "2015-012-02T08:04:03Z",
+        "entities": [
+            "Kenya",
+            "Somalia",
+            "shabaab"
+        ],
+        "favorite_count": 0,
+        "id": "671963022743740416",
+        "lang": "en",
+        "retweet_count": 0,
+        "text_en": "#Kenya #Somalia Can a 700km wall along the  border stop al shabaab terror attacks  https://t.co/4ZxVbHq7oq",
+        "text_en_modified": "Kenya Somalia Can a 700km wall along the border stop al shabaab terror attacks",
+        "topic": "KenyanBombing",
+        "tweet_hashtags": [
+            "Kenya",
+            "Somalia"
+        ],
+        "tweet_urls": [
+            "http://aje.io/legy"
+        ]
+    },
+    {
+        "concepts": [],
+        "created_at": "2015-012-02T12:28:55Z",
+        "entities": [
+            "Briton",
+            "Kenya"
+        ],
+        "favorite_count": 0,
+        "id": "672029676332797952",
+        "lang": "en",
+        "retweet_count": 15,
+        "text_en": "RT @ReutersAfrica: Briton accused of plotting attacks in #Kenya jailed for nine years  https://t.co/hpxgEO0iZt https://t.co/oCaYqm7o80",
+        "text_en_modified": "Briton accused of plotting attacks in Kenya jailed for nine years",
+        "topic": "KenyanBombing",
+        "tweet_hashtags": [
+            "Kenya"
+        ],
+        "tweet_urls": [
+            "http://af.reuters.com/article/topNews/idAFKBN0TL0WJ20151202"
+        ]
+    },
+    {
+        "concepts": [],
+        "created_at": "2015-012-02T12:25:51Z",
+        "entities": [
+            "Briton",
+            "Kenya"
+        ],
+        "favorite_count": 0,
+        "id": "672028903893024769",
+        "lang": "en",
+        "retweet_count": 15,
+        "text_en": "RT @ReutersAfrica: Briton accused of plotting attacks in #Kenya jailed for nine years  https://t.co/hpxgEO0iZt https://t.co/oCaYqm7o80",
+        "text_en_modified": "Briton accused of plotting attacks in Kenya jailed for nine years",
+        "topic": "KenyanBombing",
+        "tweet_hashtags": [
+            "Kenya"
+        ],
+        "tweet_urls": [
+            "http://af.reuters.com/article/topNews/idAFKBN0TL0WJ20151202"
+        ]
+    },
+    {
+        "concepts": [],
+        "created_at": "2015-012-02T16:55:54Z",
+        "entities": [
+            "Briton",
+            "Kenya"
+        ],
+        "favorite_count": 0,
+        "id": "672096867908526080",
+        "lang": "en",
+        "retweet_count": 15,
+        "text_en": "RT @ReutersAfrica: Briton accused of plotting attacks in #Kenya jailed for nine years  https://t.co/hpxgEO0iZt https://t.co/oCaYqm7o80",
+        "text_en_modified": "Briton accused of plotting attacks in Kenya jailed for nine years",
+        "topic": "KenyanBombing",
+        "tweet_hashtags": [
+            "Kenya"
+        ],
+        "tweet_urls": [
+            "http://af.reuters.com/article/topNews/idAFKBN0TL0WJ20151202"
+        ]
+    },
+    {
+        "concepts": [
+            "United Kingdom",
+            "Transitional Federal Government",
+            "Ali Mohammed Ghedi",
+            "Abdullahi Yusuf Ahmed",
+            "Islamic Courts Union",
+            "Somalia",
+            "Somali people",
+            "Parliament of the United Kingdom"
+        ],
+        "created_at": "2015-012-02T22:20:16Z",
+        "entities": [
+            "Somalia",
+            "Kenya"
+        ],
+        "favorite_count": 0,
+        "id": "672178496614047744",
+        "lang": "en",
+        "retweet_count": 0,
+        "text_en": "#Kenya #KOT Fears high amid attacks on Somali MPs -Federal Parliament of Somalia announce steps taken to i... https://t.co/rK3D6M2a3D",
+        "text_en_modified": "Kenya KOT Fears high amid attacks on Somali MPs -Federal Parliament of Somalia announce steps taken to i...",
+        "topic": "KenyanBombing",
+        "tweet_hashtags": [
+            "Kenya",
+            "KOT"
+        ],
+        "tweet_urls": [
+            "http://kenyanews.org/daily-nation-newspaper/63564-fears-high-amid-attacks-on-somali-mps"
+        ]
+    },
+    {
+        "concepts": [],
+        "created_at": "2015-012-02T12:26:35Z",
+        "entities": [
+            "Briton",
+            "Kenya"
+        ],
+        "favorite_count": 0,
+        "id": "672029088748429312",
+        "lang": "en",
+        "retweet_count": 15,
+        "text_en": "RT @ReutersAfrica: Briton accused of plotting attacks in #Kenya jailed for nine years  https://t.co/hpxgEO0iZt https://t.co/oCaYqm7o80",
+        "text_en_modified": "Briton accused of plotting attacks in Kenya jailed for nine years",
+        "topic": "KenyanBombing",
+        "tweet_hashtags": [
+            "Kenya"
+        ],
+        "tweet_urls": [
+            "http://af.reuters.com/article/topNews/idAFKBN0TL0WJ20151202"
+        ]
+    },
+    {
+        "concepts": [],
+        "created_at": "2015-012-02T12:37:13Z",
+        "entities": [
+            "Briton",
+            "Kenya"
+        ],
+        "favorite_count": 0,
+        "id": "672031768380317696",
+        "lang": "en",
+        "retweet_count": 15,
+        "text_en": "RT @ReutersAfrica: Briton accused of plotting attacks in #Kenya jailed for nine years  https://t.co/hpxgEO0iZt https://t.co/oCaYqm7o80",
+        "text_en_modified": "Briton accused of plotting attacks in Kenya jailed for nine years",
+        "topic": "KenyanBombing",
+        "tweet_hashtags": [
+            "Kenya"
+        ],
+        "tweet_urls": [
+            "http://af.reuters.com/article/topNews/idAFKBN0TL0WJ20151202"
+        ]
+    },
+    {
+        "concepts": [],
+        "created_at": "2015-012-02T12:34:43Z",
+        "entities": [
+            "Briton",
+            "Kenya"
+        ],
+        "favorite_count": 0,
+        "id": "672031138387517442",
+        "lang": "en",
+        "retweet_count": 15,
+        "text_en": "RT @ReutersAfrica: Briton accused of plotting attacks in #Kenya jailed for nine years  https://t.co/hpxgEO0iZt https://t.co/oCaYqm7o80",
+        "text_en_modified": "Briton accused of plotting attacks in Kenya jailed for nine years",
+        "topic": "KenyanBombing",
+        "tweet_hashtags": [
+            "Kenya"
+        ],
+        "tweet_urls": [
+            "http://af.reuters.com/article/topNews/idAFKBN0TL0WJ20151202"
+        ]
+    },
+    {
+        "concepts": [],
+        "created_at": "2015-012-02T11:10:33Z",
+        "entities": [
+            "Somalia",
+            "Kenya"
+        ],
+        "favorite_count": 0,
+        "id": "672009955705266176",
+        "lang": "en",
+        "retweet_count": 0,
+        "text_en": "#KDF #defence force withdrawal from #Somalia unlikely; would increase #risk of #alShabaab attacks in #Kenya https://t.co/l4Nu5yrvtN",
+        "text_en_modified": "KDF defence force withdrawal from Somalia unlikely; would increase risk of alShabaab attacks in Kenya",
+        "topic": "KenyanBombing",
+        "tweet_hashtags": [
+            "KDF",
+            "defence",
+            "Somalia",
+            "risk",
+            "alShabaab",
+            "Kenya"
+        ],
+        "tweet_urls": [
+            "http://bit.ly/1FNEWQO"
+        ]
+    },
+    {
+        "concepts": [],
+        "created_at": "2015-012-02T13:36:20Z",
+        "entities": [
+            "Briton",
+            "Kenya"
+        ],
+        "favorite_count": 0,
+        "id": "672046644855091201",
+        "lang": "en",
+        "retweet_count": 15,
+        "text_en": "RT @ReutersAfrica: Briton accused of plotting attacks in #Kenya jailed for nine years  https://t.co/hpxgEO0iZt https://t.co/oCaYqm7o80",
+        "text_en_modified": "Briton accused of plotting attacks in Kenya jailed for nine years",
+        "topic": "KenyanBombing",
+        "tweet_hashtags": [
+            "Kenya"
+        ],
+        "tweet_urls": [
+            "http://af.reuters.com/article/topNews/idAFKBN0TL0WJ20151202"
+        ]
+    },
+    {
+        "concepts": [
+            "United Kingdom"
+        ],
+        "created_at": "2015-012-02T20:48:22Z",
+        "entities": [
+            "Briton",
+            "Kenya"
+        ],
+        "favorite_count": 0,
+        "id": "672155369888743424",
+        "lang": "en",
+        "retweet_count": 0,
+        "text_en": "\"Briton accused of plotting attacks in Kenya jailed for nine years\" #kenya #feedly https://t.co/fXvU7s0pVk",
+        "text_en_modified": "\"Briton accused of plotting attacks in Kenya jailed for nine years\" kenya feedly",
+        "topic": "KenyanBombing",
+        "tweet_hashtags": [
+            "kenya",
+            "feedly"
+        ],
+        "tweet_urls": [
+            "http://af.reuters.com/article/kenyaNews/idAFL1N13R0DQ20151202?feedType=RSS&feedName=kenyaNews"
+        ]
+    },
+    {
+        "concepts": [
+            "United Kingdom",
+            "English law"
+        ],
+        "created_at": "2015-012-02T11:01:26Z",
+        "entities": [
+            "Jermaine Grant",
+            "Mombasa court",
+            "Kenya"
+        ],
+        "favorite_count": 0,
+        "id": "672007660884107264",
+        "lang": "en",
+        "retweet_count": 8,
+        "text_en": "RT @Daudoo: British #AlShabaab suspect, Jermaine Grant, sentenced to 9 yrs by a #Mombasa court for \"plotting\" attacks in #Kenya https://t.c\u2026",
+        "text_en_modified": "British AlShabaab suspect, Jermaine Grant, sentenced to 9 yrs by a Mombasa court for \"plotting\" attacks in Kenya",
+        "topic": "KenyanBombing",
+        "tweet_hashtags": [
+            "AlShabaab",
+            "Mombasa",
+            "Kenya"
+        ],
+        "tweet_urls": []
+    },
+    {
+        "concepts": [],
+        "created_at": "2015-012-02T12:23:58Z",
+        "entities": [
+            "Briton",
+            "Kenya"
+        ],
+        "favorite_count": 0,
+        "id": "672028433833177088",
+        "lang": "en",
+        "retweet_count": 15,
+        "text_en": "RT @ReutersAfrica: Briton accused of plotting attacks in #Kenya jailed for nine years  https://t.co/hpxgEO0iZt https://t.co/oCaYqm7o80",
+        "text_en_modified": "Briton accused of plotting attacks in Kenya jailed for nine years",
+        "topic": "KenyanBombing",
+        "tweet_hashtags": [
+            "Kenya"
+        ],
+        "tweet_urls": [
+            "http://af.reuters.com/article/topNews/idAFKBN0TL0WJ20151202"
+        ]
+    },
+    {
+        "concepts": [
+            "United Kingdom",
+            "English law"
+        ],
+        "created_at": "2015-012-02T09:30:27Z",
+        "entities": [
+            "Jermaine Grant",
+            "Mombasa court",
+            "Kenya"
+        ],
+        "favorite_count": 0,
+        "id": "671984763624890368",
+        "lang": "en",
+        "retweet_count": 8,
+        "text_en": "RT @Daudoo: British #AlShabaab suspect, Jermaine Grant, sentenced to 9 yrs by a #Mombasa court for \"plotting\" attacks in #Kenya https://t.c\u2026",
+        "text_en_modified": "British AlShabaab suspect, Jermaine Grant, sentenced to 9 yrs by a Mombasa court for \"plotting\" attacks in Kenya",
+        "topic": "KenyanBombing",
+        "tweet_hashtags": [
+            "AlShabaab",
+            "Mombasa",
+            "Kenya"
+        ],
+        "tweet_urls": []
+    },
+    {
+        "concepts": [],
+        "created_at": "2015-012-02T12:30:29Z",
+        "entities": [
+            "Briton",
+            "Kenya"
+        ],
+        "favorite_count": 0,
+        "id": "672030071549501440",
+        "lang": "en",
+        "retweet_count": 15,
+        "text_en": "RT @ReutersAfrica: Briton accused of plotting attacks in #Kenya jailed for nine years  https://t.co/hpxgEO0iZt https://t.co/oCaYqm7o80",
+        "text_en_modified": "Briton accused of plotting attacks in Kenya jailed for nine years",
+        "topic": "KenyanBombing",
+        "tweet_hashtags": [
+            "Kenya"
+        ],
+        "tweet_urls": [
+            "http://af.reuters.com/article/topNews/idAFKBN0TL0WJ20151202"
+        ]
+    },
+    {
+        "concepts": [],
+        "created_at": "2015-012-02T12:25:23Z",
+        "entities": [
+            "Briton",
+            "Kenya"
+        ],
+        "favorite_count": 0,
+        "id": "672028790265151488",
+        "lang": "en",
+        "retweet_count": 15,
+        "text_en": "RT @ReutersAfrica: Briton accused of plotting attacks in #Kenya jailed for nine years  https://t.co/hpxgEO0iZt https://t.co/oCaYqm7o80",
+        "text_en_modified": "Briton accused of plotting attacks in Kenya jailed for nine years",
+        "topic": "KenyanBombing",
+        "tweet_hashtags": [
+            "Kenya"
+        ],
+        "tweet_urls": [
+            "http://af.reuters.com/article/topNews/idAFKBN0TL0WJ20151202"
+        ]
+    },
+    {
+        "concepts": [
+            "United Kingdom",
+            "Mombasa",
+            "Britons",
+            "Great Britain",
+            "Wales",
+            "Kenya",
+            "Moi International Airport",
+            "Gaels"
+        ],
+        "created_at": "2015-012-02T12:56:37Z",
+        "entities": [
+            "MOMBASA",
+            "Briton",
+            "Kenya"
+        ],
+        "favorite_count": 0,
+        "id": "672036650516549632",
+        "lang": "en",
+        "retweet_count": 0,
+        "text_en": "Briton accused of plotting attacks in Kenya jailed for nine years: MOMBASA A British man accused of hel... https://t.co/HlEU7dKABu #Kenya",
+        "text_en_modified": "Briton accused of plotting attacks in Kenya jailed for nine years MOMBASA A British man accused of hel...  Kenya",
+        "topic": "KenyanBombing",
+        "tweet_hashtags": [
+            "Kenya"
+        ],
+        "tweet_urls": [
+            "http://bit.ly/1Pv1vlA"
+        ]
+    },
+    {
+        "concepts": [],
+        "created_at": "2015-012-02T14:35:35Z",
+        "entities": [
+            "Briton",
+            "Kenya"
+        ],
+        "favorite_count": 0,
+        "id": "672061552619610112",
+        "lang": "en",
+        "retweet_count": 15,
+        "text_en": "RT @ReutersAfrica: Briton accused of plotting attacks in #Kenya jailed for nine years  https://t.co/hpxgEO0iZt https://t.co/oCaYqm7o80",
+        "text_en_modified": "Briton accused of plotting attacks in Kenya jailed for nine years",
+        "topic": "KenyanBombing",
+        "tweet_hashtags": [
+            "Kenya"
+        ],
+        "tweet_urls": [
+            "http://af.reuters.com/article/topNews/idAFKBN0TL0WJ20151202"
+        ]
+    },
+    {
+        "concepts": [
+            "United Kingdom",
+            "English law"
+        ],
+        "created_at": "2015-012-02T11:39:45Z",
+        "entities": [
+            "Jermaine Grant",
+            "Mombasa court",
+            "Kenya"
+        ],
+        "favorite_count": 0,
+        "id": "672017305820352513",
+        "lang": "en",
+        "retweet_count": 8,
+        "text_en": "RT @Daudoo: British #AlShabaab suspect, Jermaine Grant, sentenced to 9 yrs by a #Mombasa court for \"plotting\" attacks in #Kenya https://t.c\u2026",
+        "text_en_modified": "British AlShabaab suspect, Jermaine Grant, sentenced to 9 yrs by a Mombasa court for \"plotting\" attacks in Kenya",
+        "topic": "KenyanBombing",
+        "tweet_hashtags": [
+            "AlShabaab",
+            "Mombasa",
+            "Kenya"
+        ],
+        "tweet_urls": []
+    },
+    {
+        "concepts": [],
+        "created_at": "2015-012-02T17:04:23Z",
+        "entities": [
+            "Briton",
+            "Kenya"
+        ],
+        "favorite_count": 0,
+        "id": "672098999160012800",
+        "lang": "en",
+        "retweet_count": 15,
+        "text_en": "RT @ReutersAfrica: Briton accused of plotting attacks in #Kenya jailed for nine years  https://t.co/hpxgEO0iZt https://t.co/oCaYqm7o80",
+        "text_en_modified": "Briton accused of plotting attacks in Kenya jailed for nine years",
+        "topic": "KenyanBombing",
+        "tweet_hashtags": [
+            "Kenya"
+        ],
+        "tweet_urls": [
+            "http://af.reuters.com/article/topNews/idAFKBN0TL0WJ20151202"
+        ]
+    },
+    {
+        "concepts": [
+            "The Wall",
+            "Stop",
+            "Waiting for the Worms"
+        ],
+        "created_at": "2015-012-02T08:56:51Z",
+        "entities": [
+            "Kenya",
+            "Somalia"
+        ],
+        "favorite_count": 0,
+        "id": "671976310013497344",
+        "lang": "en",
+        "retweet_count": 1,
+        "text_en": "Can a 700km wall along the #Kenya - #Somalia border stop #AlShabab attacks?  \n\nhttps://t.co/iHWKZuAsqv #Africa https://t.co/d6NRxgBfGP",
+        "text_en_modified": "Can a 700km wall along the Kenya - Somalia border stop AlShabab attacks?  Africa",
+        "topic": "KenyanBombing",
+        "tweet_hashtags": [
+            "Kenya",
+            "Somalia",
+            "AlShabab",
+            "Africa"
+        ],
+        "tweet_urls": [
+            "http://aje.io/kcsh"
+        ]
+    },
+    {
+        "concepts": [
+            "United Kingdom",
+            "English law"
+        ],
+        "created_at": "2015-012-02T09:21:00Z",
+        "entities": [
+            "Jermaine Grant",
+            "Mombasa court",
+            "Kenya"
+        ],
+        "favorite_count": 1,
+        "id": "671982385727164416",
+        "lang": "en",
+        "retweet_count": 8,
+        "text_en": "British #AlShabaab suspect, Jermaine Grant, sentenced to 9 yrs by a #Mombasa court for \"plotting\" attacks in #Kenya https://t.co/eBZ8iFOsx7",
+        "text_en_modified": "British AlShabaab suspect, Jermaine Grant, sentenced to 9 yrs by a Mombasa court for \"plotting\" attacks in Kenya",
+        "topic": "KenyanBombing",
+        "tweet_hashtags": [
+            "AlShabaab",
+            "Mombasa",
+            "Kenya"
+        ],
+        "tweet_urls": []
+    }
+]
