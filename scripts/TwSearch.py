@@ -23,7 +23,7 @@ tweetDict = {}
 months = {v: k for k,v in enumerate(calendar.month_abbr)}
 taggedDict = {}
 dates = []
-tweetCount = {'fr': 0, 'de': 0, 'ru' : 0 }
+tweetCount = {'en': 0,'fr': 0, 'de': 0, 'ru' : 0 }
 entityTypes = ['Person', 'Country', 'Organization', 'Company', 'StateOrCounty', 'City', 'GeographicFeature', 'Region']
 keys = [
 	'bcae79f944a5cb0db0c70a8951776c3086478d09',
@@ -193,7 +193,7 @@ def main():
 	setupAuthKeys(sys.argv[1])
 	setupTweepyAPI()
 	setupDates(int(sys.argv[2]))
-	queryString = ' '.join(sys.argv[4:])
+	queryString = ' '.join(sys.argv[3:])
 	getTweets(queryString)
 	for k,v in tweetCount.iteritems():
  	 	print(k,": ",v)
