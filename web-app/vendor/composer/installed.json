@@ -1,0 +1,41 @@
+[
+    {
+        "name": "yandex/translate-api",
+        "version": "1.5.2",
+        "version_normalized": "1.5.2.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/yandex-php/translate-api.git",
+            "reference": "c99e69cde3e688fc0f99c4d8a21585226a8e1938"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/yandex-php/translate-api/zipball/c99e69cde3e688fc0f99c4d8a21585226a8e1938",
+            "reference": "c99e69cde3e688fc0f99c4d8a21585226a8e1938",
+            "shasum": ""
+        },
+        "require": {
+            "ext-curl": "*",
+            "php": ">=5.3"
+        },
+        "time": "2015-07-27 15:00:45",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Yandex\\Translate\\": "src"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Nikita Gusakov",
+                "email": "dev@nkt.me"
+            }
+        ],
+        "description": "Client for Yandex.Translate API"
+    }
+]

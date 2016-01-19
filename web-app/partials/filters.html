@@ -1,0 +1,32 @@
+<div ng-if="totalItems>0">
+	<div class="input-group search-bar">
+		<b> Languages </b>
+		<div class="checkbox">
+			<label>
+				<div ng-repeat="(language,value) in languages">
+					<input type="checkbox" ng-model="languages[language]"  /> {{language_map[language]}} ({{languages_count[language]}})	<br/>
+				</div>
+			</label>
+		</div>
+	</div>
+	<div class="input-group search-bar">
+		<b> Concepts </b>
+		<div class="checkbox">
+			<label>
+				<div ng-repeat="(concept,value) in concepts">
+					<input type="checkbox" ng-model="concepts[concept]"  /> {{concept}} ({{concepts_count[concept]}}) <br/>
+				</div>
+			</label>
+		</div>
+	</div>
+	<div class="input-group search-bar">
+		<b> Entities </b>
+		<div class="checkbox">
+			<label>
+				<div ng-repeat="(entity,value) in entities">
+					<input type="checkbox" ng-model="entities[entity]"  />{{entity}} ({{entities_count[entity]}})<br/>
+				</div>
+			</label>
+		</div>
+	</div>
+</div>
