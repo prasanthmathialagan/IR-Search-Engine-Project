@@ -1,0 +1,24 @@
+<div class="col-md-4">
+	<div class="input-group search-bar">
+		<b> Popular Hashtags </b>
+		<div ng-repeat="hashtag in popular_hashtags">
+			<b> <a href="#" ng-click="update(hashtag,2)" > #{{hashtag}} </a>	</b>
+		</div>
+	</div>
+</div>
+<div class="col-md-4">
+	<div class="input-group search-bar">
+		<b> Popular Concepts </b>
+		<div ng-repeat="concept in popular_concepts">
+			<b> <a href="#" ng-click="update(concept,3)" > {{concept}} </a>	</b>
+		</div>
+	</div>
+</div>
+<div class="col-md-4">
+	<div class="input-group search-bar">
+		<b> Popular Entities </b>
+		<div ng-repeat="entity in popular_entities">
+			<b> <a href="#" ng-click="update(entity,4)" > {{entity}} </a>	</b>
+		</div>
+	</div>
+</div>

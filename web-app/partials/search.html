@@ -1,0 +1,58 @@
+<div class="container">
+  <div class="row">
+    <div class="animated ">
+      <div class="featurette">
+        <div class="featurette-inner text-center">
+          <form role="form" class="search" ng-submit="change(1)">
+            <div class="input-group input-group-lg">
+              <input type="text" ng-model="search" onclick="select()" placeholder="Search..." class="form-control" autofocus required>
+              <span class="input-group-btn">
+                <button class="btn btn-custom"  type="submit"><span class="glyphicon glyphicon-search" style="color:white"></span></button>
+              </span>
+            </div>
+            <!-- /input-group -->
+          </form>
+          <!-- /.max-width on this form -->
+        </div>
+        <!-- /.featurette-inner (display:table-cell) -->
+      </div>
+      <!-- /.featurette (display:table) -->
+    </div>
+  </div>
+</div>
+<div class="container">
+  <p>
+    <div ng-if="summary.summary " >
+      <div class="row">
+        <div class="col-md-12">
+          <blockquote>
+            <!-- <img style='float:right; margin-left:10px;' class="img-responsive" onerror="this.style.display='none'" ng-src="{{summary.image}}" alt="..."> -->
+            <p class="text-justify">{{summary.summary }}</p>
+            <footer>
+              <cite title="Source Title">Wikipedia</cite>
+            </footer>
+          </blockquote>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        <div ng-if="tweets" >
+        <pre>Number of documents found {{totalItems}}</pre>
+      </div>
+    </div>
+  </div>
+</p>
+</div>
+<div class="container">
+<div class-"row">
+
+  
+  <div id="results" ng-include="'partials/results.html'"  class="col-md-8"></div>
+  <div id="filters" ng-include="'partials/filters.html'"  class="col-md-4 animated bounce related-results"></div>
+</div>
+<div class="row" ng-if="show_top">
+  <div id="top" ng-include="'partials/top.html'"  class="col-md-12"></div>
+</div>
+</div>
+</div>

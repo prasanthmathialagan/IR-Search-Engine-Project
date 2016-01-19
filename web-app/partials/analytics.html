@@ -1,0 +1,72 @@
+<!--
+<div class-"row">
+				<h1> Syrian Crisis </h1>
+				<div class="col-md-4">
+							<div class="input-group search-bar">
+											<b> Hashtags </b>
+													<div ng-repeat="hashtag in popular_hashtags">
+																				<b> <a href="#" ng-click="update(hashtag,2)" > {{hashtag}} </a>	</b>
+													</div>
+							</div>
+				</div>
+				<div class="col-md-4">
+							<div class="input-group search-bar">
+											<b> Concepts </b>
+													<div ng-repeat="concept in popular_concepts">
+																				<b> <a href="#" ng-click="update(concept,3)" > {{concept}} </a>	</b>
+													</div>
+							</div>
+				</div>
+				<div class="col-md-4">
+							<div class="input-group search-bar">
+											<b> Entities </b>
+													<div ng-repeat="entity in popular_entities">
+																				<b> <a href="#" ng-click="update(entity,4)" > {{entity}} </a>	</b>
+													</div>
+							</div>
+				</div>
+</div>
+-->
+<div ng-if="show_graph">
+	<div class="row" id="languages-chart" align="center">
+		<fusioncharts width="500" height="300" type="pie3d" datasource="{{LanguageData}}">
+		</fusioncharts>
+	</div>
+	<div class="row" id="languages-chart2" align="center">
+		<fusioncharts width="500" height="300" type="pie3d" datasource="{{TopicData}}">
+		</fusioncharts>
+	</div>
+	<div ng-if="docs_sc">
+		<h3>Syrian Crisis</h3>
+		<h5>Top tweets</h5>
+		<ul>
+			<li ng-repeat="doc in docs_sc">
+				<i> {{doc.text_en}} {{doc.text_ru}} {{doc.text_de}} {{doc.text_fr}} </i>
+			</li>
+		</ul>
+	</div>
+	<div ng-if="docs_pa">
+		<h3>Paris Attacks</h3>
+		<h5>Top tweets</h5>
+		<ul>
+			<li ng-repeat="doc in docs_pa">
+				<i> {{doc.text_en}} {{doc.text_ru}} {{doc.text_de}} {{doc.text_fr}} </i>
+			</li>
+		</ul>
+	</div>
+	<div ng-if="docs_kb">
+		<h3>Kenyan Bombing</h3>
+		<h5>Top tweets</h5>
+		<ul>
+			<li ng-repeat="doc in docs_kb">
+				<i> {{doc.text_en}} {{doc.text_ru}} {{doc.text_de}} {{doc.text_fr}} </i>
+			</li>
+		</ul>
+	</div>
+</div>
+<!--
+<div class="row" id="languages-chart3" align="center">
+					<fusioncharts width="500" height="300" type="pie3d" datasource="{{LanguageData}}">
+					</fusioncharts>
+</div>
+-->
