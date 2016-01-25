@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="IR" ng-controller="MasterController">
+  <head>
+    <base href="/ir/"> <!-- Pretty URLS (html5Mode - app.js) -->
+    <title>DeepMind - Search Engine</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/animate.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+  </head>
+  <body>
+    <div id="wrap">
+      <div class="container-fluid outerdiv">
+        <nav class="navbar navbar-custom navbar-fixed-top">
+          <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="search"><b>DeepMind</b> <span class="span-style">Search Engine</span></a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+              <ul class="nav navbar-nav">
+                <li ng-class="{active: $route.current.active == 'search'}"><a href="search">Search<span class="sr-only">(current)</span></a></li>
+                <li ng-class="{active: $route.current.active == 'analytics'}"><a href="analytics">Analytics</a></li>
+              </ul>
+              </div><!-- /.navbar-collapse -->
+              </div><!-- /.container-fluid -->
+            </nav>
+            <noscript>
+            <div class="nojs">
+              Javascript is either disabled or not supported in your browser. Please enable it or use a Javascript enabled browser.
+            </div>
+            </noscript>
+            
+            <div ng-view>
+              <!-- Inject partials -->
+            </div>
+          </div>
+        </div>
+        <div  class="container">
+          <div class="navbar navbar-custom navbar-fixed-bottom">
+            <p class="navbar-text"> Built using <a href="https://angularjs.org/"> Angular JS </a>, <a href="http://lucene.apache.org/solr/"> Apache Solr </a> & <a href="http://www.alchemyapi.com/"> AlchemyAPI </a> </p>
+          </div>
+          
+        </div>
+        <!-- Angular libraries -->
+        <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.4.7/angular.js"></script>
+        <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.4.7/angular-route.js"></script>
+        <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.4.7/angular-animate.js"></script>
+        <!-- Custom JS -->
+        <script src="js/app.js"></script>
+        <!-- External libraries -->
+        <script src="js/pagination.js"></script>
+        <script src="js/fusioncharts.js"></script>
+        <script src="js/angular-fusioncharts.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-bootstrap/0.14.3/ui-bootstrap-tpls.js"></script>
+        <!-- Modals -->
+        <script type="text/ng-template" id="expanded_tweet.html">
+        <div class="modal-header">
+          <h3 class="modal-title">Data</h3>
+        </div>
+        <div class="modal-body">
+          <p><b>Date </b>{{expanded_tweet.created_at}}</p>
+          <p><b>Language </b>
+            <div ng-if="expanded_tweet.lang=='en'" >
+            English
+          </div>
+          <div ng-if="expanded_tweet.lang=='fr'" >
+            French
+          </div>
+          <div ng-if="expanded_tweet.lang=='de'" >
+            German
+          </div>
+          <div ng-if="expanded_tweet.lang=='ru'" >
+            Russian
+          </div>
+
+
+          </p>
+          <b> Tweet </b>
+          <div ng-if="expanded_tweet.lang=='en'" >
+            <p>{{ expanded_tweet.text_en }}</p>
+          </div>
+          <div ng-if="expanded_tweet.lang=='de'" >
+            <p>{{ expanded_tweet.text_de }}</p>
+          </div>
+          <div ng-if="expanded_tweet.lang=='ru'" >
+            <p>{{ expanded_tweet.text_ru }}</p>
+          </div>
+          <div ng-if="expanded_tweet.lang=='fr'" >
+            <p>{{ expanded_tweet.text_fr }}</p>
+          </div>
+
+          <div ng-if="expanded_tweet.tweet_urls.length">
+            <b>Links</b>
+            <ul>
+              <li ng-repeat="url in expanded_tweet.tweet_urls" >
+                <a href="{{url}}">{{url}}</a>
+              </li>
+            </ul>
+          </div>
+          <div ng-if="expanded_tweet.tweet_hashtags.length">
+            <b>Hashtags</b>
+            <ul>
+              <li ng-repeat="hashtag in expanded_tweet.tweet_hashtags">
+                <i>#{{hashtag}}</i>
+              </li>
+            </ul>
+          </div>
+          <div ng-if="expanded_tweet.concepts.length">
+            <b>Concepts</b>
+            <ul>
+              <li ng-repeat="concept in expanded_tweet.concepts">
+                <i>{{concept}}</i>
+              </li>
+            </ul>
+          </div>
+          <div ng-if="expanded_tweet.entities.length">
+            <b>Entities</b>
+            <ul>
+              <li ng-repeat="entity in expanded_tweet.entities">
+                <i>{{entity}}</i>
+              </li>
+            </ul>
+          </div>
+          <div ng-if="related">
+            <b>Related</b>
+            <ul>
+              <li ng-repeat="doc in related">
+                <i> {{doc.text_en}} {{doc.text_ru}} {{doc.text_de}} {{doc.text_fr}} </i>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button class="btn btn-primary" type="button" ng-click="ok()">OK</button>
+          <button class="btn btn-warning" type="button" ng-click="cancel()">Cancel</button>
+        </div>
+        </script>
+      </body>
+    </html>

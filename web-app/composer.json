@@ -1,0 +1,5 @@
+{
+  "require": {
+    "yandex/translate-api": "1.5.x"
+  }
+}
